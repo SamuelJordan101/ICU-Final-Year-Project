@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tracker_App.Home"
+             BackgroundImageSource="Background.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Home" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
