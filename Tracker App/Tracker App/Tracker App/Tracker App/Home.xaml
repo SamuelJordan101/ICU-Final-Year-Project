@@ -9,6 +9,15 @@
                 <Label Text="Home" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
             </StackLayout>
 
+            <ScrollView>
+                <StackLayout Padding="20,0,20,0">
+                    <Button x:Name="InformationButton" Text="Information" BackgroundColor="LightBlue" Clicked="Information_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="GoalsButton" Text="Goals" BackgroundColor="LightBlue" Clicked="Goals_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="ExercisesButton" Text="Exercises" BackgroundColor="LightBlue" Clicked="Exercises_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="ProgressButton" Text="Progress" BackgroundColor="LightBlue" Clicked="Progress_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="SettingsButton" Text="Settings" BackgroundColor="LightBlue" Clicked="Settings_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

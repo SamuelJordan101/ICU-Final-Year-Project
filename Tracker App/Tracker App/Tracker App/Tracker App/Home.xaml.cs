@@ -16,5 +16,27 @@ namespace Tracker_App
         {
             InitializeComponent();
         }
+
+        void Information_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Information());
+        }
+
+        void Goals_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Goals());
+        }
+        void Exercises_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Exercises());
+        }
+        void Progress_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Progress());
+        }
+        void Settings_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Settings());
+        }
     }
 }
