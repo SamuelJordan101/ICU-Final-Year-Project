@@ -5,7 +5,7 @@
              BackgroundImageSource="Background.png">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout>
+            <StackLayout BackgroundColor="white">
                 <Label Text="Home" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
             </StackLayout>
 

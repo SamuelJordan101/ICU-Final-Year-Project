@@ -1,0 +1,20 @@
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Tracker App.deps.json
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Tracker App.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\ref\Tracker App.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Tracker App.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csprojAssemblyReference.cache
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Exercises.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Goals.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Home.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Information.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Login.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Progress.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Settings.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.AssemblyInfoInputs.cache
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.AssemblyInfo.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\ref\Tracker App.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.pdb
