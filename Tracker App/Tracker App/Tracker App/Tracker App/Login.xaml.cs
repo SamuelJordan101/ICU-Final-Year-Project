@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Tracker_App
 {
@@ -18,7 +19,7 @@ namespace Tracker_App
             InitializeComponent();
         }
 
-        void Login_Button(object sender, System.EventArgs e)
+        async void Login_Button(object sender, System.EventArgs e)
         {
             var ID = EnterID.Text;
 
@@ -42,6 +43,8 @@ namespace Tracker_App
                 return false;
             }
         }
+
+        protected override bool OnBackButtonPressed() => false;
 
     }
 }

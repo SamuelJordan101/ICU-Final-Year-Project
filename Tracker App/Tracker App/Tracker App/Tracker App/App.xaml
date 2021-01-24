@@ -4,7 +4,11 @@
              x:Class="Tracker_App.App">
     <Application.Resources>
         <Style TargetType="Label">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter x:Name="LabelEdit" Property="TextColor" Value="Black" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter x:Name="ButtonEdit" Property="TextColor" Value="Black" />
         </Style>
     </Application.Resources>
 </Application>

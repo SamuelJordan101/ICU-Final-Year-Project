@@ -11113,9 +11113,6 @@ namespace Tracker_App.Droid
 			// aapt resource value: 0x7F070061
 			public const int btn_radio_on_to_off_mtrl_animation = 2131165281;
 			
-			// aapt resource value: 0x7F070001
-			public const int Derriford_Hospital = 2131165185;
-			
 			// aapt resource value: 0x7F070062
 			public const int design_bottom_navigation_item_background = 2131165282;
 			
@@ -11133,6 +11130,9 @@ namespace Tracker_App.Droid
 			
 			// aapt resource value: 0x7F070067
 			public const int design_snackbar_background = 2131165287;
+			
+			// aapt resource value: 0x7F070001
+			public const int Hospital = 2131165185;
 			
 			// aapt resource value: 0x7F070068
 			public const int ic_calendar_black_24dp = 2131165288;

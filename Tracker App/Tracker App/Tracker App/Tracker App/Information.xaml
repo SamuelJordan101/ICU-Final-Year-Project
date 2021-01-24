@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tracker_App.Information"
+             BackgroundColor="Beige"
              BackgroundImageSource="Background.png">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
@@ -14,10 +15,10 @@
             <ScrollView Margin="0,0,0,20">
                 <Frame CornerRadius="5" Margin="10,0,10,10">
                     <StackLayout>
-                        <Label Text="Name: Susan Jones" FontSize="25" ></Label>
-                        <Label Text="Medical Centre: Derriford Hospital" FontSize="25"></Label>
-                        <Label Text="Ward Location: Intensive Care Unit (ICU)" FontSize="25"></Label>
-                        <Label Text="Admission Date: 15/01/2021" FontSize="25"></Label>
+                        <Label Text="Name: Susan Jones" x:Name="Name" FontSize="25" ></Label>
+                        <Label Text="Medical Centre: Derriford Hospital" x:Name="Centre" FontSize="25"></Label>
+                        <Label Text="Ward Location: Intensive Care Unit (ICU)" x:Name="Ward" FontSize="25"></Label>
+                        <Label Text="Admission Date: 15/01/2021" x:Name="Date" FontSize="25"></Label>
 
                         <StackLayout Padding="0,10,0,0">
                             <Image Source="Hospital.png"></Image>

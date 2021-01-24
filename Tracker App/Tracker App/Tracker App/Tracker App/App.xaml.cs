@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Tracker_App
 {
@@ -15,6 +16,7 @@ namespace Tracker_App
 
         protected override void OnStart()
         {
+
         }
 
         protected override void OnSleep()
