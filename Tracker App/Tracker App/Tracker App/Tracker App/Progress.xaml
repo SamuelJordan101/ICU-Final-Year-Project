@@ -1,11 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="Tracker_App.Progress"
              BackgroundImageSource="Background.png">
-    <ContentPage.Content>
-        <StackLayout Padding="20,20,20,20">
 
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="LightBlue">
+                <Label Text="Progress" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+            </StackLayout>
+
+
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="CPAX Scores"></Label>
+                    <microcharts:ChartView x:Name="CpaxChart" HeightRequest="300">
+
+                    </microcharts:ChartView>
+
+                    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.9*"></ColumnDefinition>
+                            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Achievements" FontSize="20" FontAttributes="Bold"></Label>
+
+                        <Label Grid.Row="1" Grid.Column="0" Text="CPAX Score Hit 2" FontSize="20" VerticalOptions="Center"></Label>
+                        <Button Grid.Row="1" Grid.Column="1" Text="X" BackgroundColor="Red" Clicked="Delete_Achievement_Button"></Button>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

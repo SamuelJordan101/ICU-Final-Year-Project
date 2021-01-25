@@ -4,9 +4,9 @@
              x:Class="Tracker_App.Exercises">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout BackgroundColor="LightBlue">
+                <Label Text="Exercises" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

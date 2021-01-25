@@ -6,11 +6,9 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Frame Margin="10,10,10,10" CornerRadius="5">
-                <StackLayout>
-                    <Label Text="Settings" TextColor="Black"  HorizontalOptions="Center" FontSize="35" Padding="10,10,10,10"></Label>
-                </StackLayout>
-            </Frame>
+            <StackLayout BackgroundColor="LightBlue">
+                <Label Text="Settings" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+            </StackLayout>
 
             <ScrollView Margin="0,0,0,20">
                 <Frame CornerRadius="5" Margin="10,0,10,10">

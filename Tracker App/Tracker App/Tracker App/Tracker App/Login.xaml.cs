@@ -25,9 +25,9 @@ namespace Tracker_App
 
             if (ID != null && ValidateAmount() == true)
             {
-                Navigation.PushModalAsync(new Tracker_App.Home());
+                await Navigation.PushModalAsync(new Tracker_App.Home());
             } else {
-                DisplayAlert("Invalid Entry!", "Please Enter a valid ID", "OK");
+                await DisplayAlert("Invalid Entry!", "Please Enter a valid ID", "OK");
                 EnterID.Text = "";
             }
         }

@@ -2,18 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tracker_App.Information"
-             BackgroundColor="Beige"
              BackgroundImageSource="Background.png">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
-            <Frame Margin="10,10,10,10" CornerRadius="5">
-                <StackLayout>
-                    <Label Text="Who/Where Am I?" TextColor="Black"  HorizontalOptions="Center" FontSize="35" Padding="10,10,10,10"></Label>
-                </StackLayout>
-            </Frame>
+            <StackLayout BackgroundColor="LightBlue">
+                <Label Text="Who/Where Am I?" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+            </StackLayout>
 
-            <ScrollView Margin="0,0,0,20">
-                <Frame CornerRadius="5" Margin="10,0,10,10">
+                <ScrollView Margin="0,0,0,20">
+                <Frame CornerRadius="5" Margin="10,0,10,10" BackgroundColor="WhiteSmoke">
                     <StackLayout>
                         <Label Text="Name: Susan Jones" x:Name="Name" FontSize="25" ></Label>
                         <Label Text="Medical Centre: Derriford Hospital" x:Name="Centre" FontSize="25"></Label>
