@@ -6,36 +6,47 @@
              BackgroundImageSource="Background.png">
 
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout BackgroundColor="LightBlue">
-                <Label Text="Progress" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
-            </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout BackgroundColor="LightBlue">
+                    <Label Text="Progress" TextColor="Black"  HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
+                </StackLayout>
 
 
-            <ScrollView>
-                <StackLayout>
-                    <Label Text="CPAX Scores"></Label>
-                    <microcharts:ChartView x:Name="CpaxChart" HeightRequest="300">
+                <Frame CornerRadius="5" Margin="10,0,10,10">
+                    <StackLayout>
+                        <Label Text="CPAX Scores" FontSize="25"></Label>
+                        <microcharts:ChartView x:Name="CpaxChart" HeightRequest="200"></microcharts:ChartView>
+                    </StackLayout>
+                </Frame>
 
-                    </microcharts:ChartView>
-
+                <Frame CornerRadius="5" Margin="10,0,10,10">
                     <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
 
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="0.9*"></ColumnDefinition>
-                            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                            <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                            <ColumnDefinition Width="0.2*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Achievements" FontSize="20" FontAttributes="Bold"></Label>
+                        <Label Text="Your Achievements:" FontSize="20" FontAttributes="Bold"></Label>
 
-                        <Label Grid.Row="1" Grid.Column="0" Text="CPAX Score Hit 2" FontSize="20" VerticalOptions="Center"></Label>
-                        <Button Grid.Row="1" Grid.Column="1" Text="X" BackgroundColor="Red" Clicked="Delete_Achievement_Button"></Button>
+                        <Entry Grid.Row="1" Grid.Column="0" x:Name="Add_Achievement_Input" Placeholder="Enter new achievement..." PlaceholderColor="Silver" TextColor="Black"></Entry>
+                        <Button Grid.Row="1" Grid.Column="1" Text="Add" BackgroundColor="Pink" Clicked="Add_Achievement_Button"></Button>
+
+                        <Label Grid.Row="2" Grid.Column="0" Text="Walk Around The Room" FontSize="20" VerticalOptions="Center"></Label>
+                        <Button Grid.Row="2" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
+
+                        <Label Grid.Row="3" Grid.Column="0" Text="1km Walk" FontSize="20" VerticalOptions="Center"></Label>
+                        <Button Grid.Row="3" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
+
+                        <Label Grid.Row="4" Grid.Column="0" Text="5km Walk" FontSize="20" VerticalOptions="Center"></Label>
+                        <Button Grid.Row="4" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
                     </Grid>
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

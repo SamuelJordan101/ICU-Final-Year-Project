@@ -8,24 +8,27 @@
             <StackLayout Padding="0,0,0,50">
                 <Label Text="ICU Tracker App" TextColor="Black" BackgroundColor="LightBlue" HorizontalOptions="Center" FontSize="40" Padding="20,20,20,20"></Label>
             </StackLayout>
-            <Entry x:Name="EnterID" Placeholder="Enter ID..." BackgroundColor="White" Keyboard="Numeric" Completed="Login_Button"></Entry>
-            <Button x:Name="LoginButton" Text="Login" BackgroundColor="LightBlue" Clicked="Login_Button"></Button>
 
-            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
-                <Grid.RowDefinitions>
+            <Frame CornerRadius="5">
+                <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+                    <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.25*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                
-                <CheckBox Grid.Row="0" Grid.Column="0" VerticalOptions="Center"/>
-                <Label Grid.Row="0" Grid.Column="1" Text="Keep Logged In" VerticalOptions="Center" />
-            </Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Entry x:Name="EnterID" Grid.Row="0" Grid.ColumnSpan="4" Placeholder="Enter ID..." PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" Keyboard="Numeric" Completed="Login_Button"></Entry>
+                    <Button x:Name="LoginButton" Grid.Row="1" Grid.ColumnSpan="4" Text="Login" BackgroundColor="LightBlue" Clicked="Login_Button"></Button>
+
+                    <CheckBox Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Keep Logged In" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
 
         </StackLayout>
             

@@ -16,5 +16,10 @@ namespace Tracker_App
         {
             InitializeComponent();
         }
+
+        void Exercise_Button(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new Tracker_App.Exercise_Individual());
+        }
     }
 }
