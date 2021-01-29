@@ -16,7 +16,7 @@
                 <Frame CornerRadius="5" Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="CPAX Scores" FontSize="25"></Label>
-                        <microcharts:ChartView x:Name="CpaxChart" HeightRequest="200"></microcharts:ChartView>
+                        <microcharts:ChartView x:Name="CpaxChart" HeightRequest="200" Margin="0,10,0,0"></microcharts:ChartView>
                     </StackLayout>
                 </Frame>
 
@@ -34,7 +34,7 @@
                         <Label Text="Your Achievements:" FontSize="20" FontAttributes="Bold"></Label>
 
                         <Entry Grid.Row="1" Grid.Column="0" x:Name="Add_Achievement_Input" Placeholder="Enter new achievement..." PlaceholderColor="Silver" TextColor="Black"></Entry>
-                        <Button Grid.Row="1" Grid.Column="1" Text="Add" BackgroundColor="Pink" Clicked="Add_Achievement_Button"></Button>
+                        <Button Grid.Row="1" Grid.Column="1" Text="Add" BackgroundColor="DeepSkyBlue" Clicked="Add_Achievement_Button"></Button>
 
                         <Label Grid.Row="2" Grid.Column="0" Text="Walk Around The Room" FontSize="20" VerticalOptions="Center"></Label>
                         <Button Grid.Row="2" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>

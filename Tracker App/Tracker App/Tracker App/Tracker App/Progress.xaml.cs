@@ -19,37 +19,37 @@ namespace Tracker_App
         {
             new ChartEntry(1)
             {
-                Label = "09/2020",
+                Label = "September",
                 ValueLabel = "1",
                 Color = SKColor.Parse("#ff0000")
             },
             new ChartEntry(2)
             {
-                Label = "10/2020",
+                Label = "October",
                 ValueLabel = "2",
                 Color = SKColor.Parse("#ff003e")
             },
             new ChartEntry((float)2.5)
             {
-                Label = "11/2020",
+                Label = "November",
                 ValueLabel = "2.5",
                 Color = SKColor.Parse("#ff0070")
             },
             new ChartEntry((float)2.8)
             {
-                Label = "12/2020",
+                Label = "December",
                 ValueLabel = "2.8",
                 Color = SKColor.Parse("#f00094")
             },
             new ChartEntry(3)
             {
-                Label = "01/2021",
+                Label = "January",
                 ValueLabel = "3",
                 Color = SKColor.Parse("#b800cd")
             },
             new ChartEntry((float)3.1)
             {
-                Label = "02/2021",
+                Label = "February",
                 ValueLabel = "3.1",
                 Color = SKColor.Parse("#0000ff")
             }
@@ -58,7 +58,7 @@ namespace Tracker_App
         public Progress()
         {
             InitializeComponent();
-            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 40, MaxValue=5, PointSize=35, LineSize=10, LabelColor= SKColor.Parse("#000000") };
+            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 40, MaxValue=5, PointSize=35, LineSize=10, LabelColor=SKColor.Parse("#000000"), ValueLabelOrientation=Orientation.Horizontal };
         }
 
         async void Delete_Achievement_Button(object sender, System.EventArgs e)

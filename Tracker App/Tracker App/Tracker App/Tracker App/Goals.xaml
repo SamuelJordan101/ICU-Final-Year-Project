@@ -26,7 +26,7 @@
                         <Label Text="Your Goals:" FontSize="20" FontAttributes="Bold"></Label>
 
                         <Entry Grid.Row="1" Grid.Column="0" x:Name="Add_Goal_Input" Placeholder="Enter new goal..." PlaceholderColor="Silver" TextColor="Black"></Entry>
-                        <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="Add" BackgroundColor="Pink" Clicked="Add_Goal_Button"></Button>
+                        <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="Add" BackgroundColor="DeepSkyBlue" Clicked="Add_Goal_Button"></Button>
 
                         <Label Grid.Row="2" Grid.Column="0" Text="Walk Around The Room" FontSize="20" VerticalOptions="Center"></Label>
                         <Button Grid.Row="2" Grid.Column="1" Text="Done" BackgroundColor="Lime" Clicked="Done_Goal_Button"></Button>
