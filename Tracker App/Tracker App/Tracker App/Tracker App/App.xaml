@@ -10,5 +10,9 @@
         <Style TargetType="Button">
             <Setter x:Name="ButtonEdit" Property="TextColor" Value="Black" />
         </Style>
+
+        <Style TargetType="Frame">
+            <Setter x:Name="FrameEdit" Property="BackgroundColor" Value="WhiteSmoke" />
+        </Style>
     </Application.Resources>
 </Application>

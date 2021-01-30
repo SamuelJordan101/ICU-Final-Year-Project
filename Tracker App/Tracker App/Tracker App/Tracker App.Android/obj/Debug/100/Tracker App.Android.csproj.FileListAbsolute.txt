@@ -639,3 +639,4 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\crc64bb223c2be3a01e03\SKGLViewRendererBase_2.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\crc64e9f97cf19b8286a9\ChartView.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\drawable\exercise_placeholder.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\drawable\placeholder_gif.gif

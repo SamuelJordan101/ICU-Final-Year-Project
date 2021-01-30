@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tracker_App.Login"
-             BackgroundImageSource="Background.png">
+             BackgroundImageSource="Background.png"
+             BackgroundColor="White">
+    
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Center" Padding="20,20" >
             <StackLayout Padding="0,0,0,50">
@@ -10,7 +12,7 @@
             </StackLayout>
 
             <Frame CornerRadius="5">
-                <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+                <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
@@ -22,7 +24,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Entry x:Name="EnterID" Grid.Row="0" Grid.ColumnSpan="4" Placeholder="Enter ID..." PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" Keyboard="Numeric" Completed="Login_Button"></Entry>
+                    <Entry x:Name="EnterID" Grid.Row="0" Grid.ColumnSpan="4" Placeholder="Enter ID..." PlaceholderColor="Silver" TextColor="Black" Keyboard="Numeric" Completed="Login_Button"></Entry>
                     <Button x:Name="LoginButton" Grid.Row="1" Grid.ColumnSpan="4" Text="Login" BackgroundColor="LightBlue" Clicked="Login_Button"></Button>
 
                     <CheckBox Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>

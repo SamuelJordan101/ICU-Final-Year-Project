@@ -58,7 +58,7 @@ namespace Tracker_App
         public Progress()
         {
             InitializeComponent();
-            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 40, MaxValue=5, PointSize=35, LineSize=10, LabelColor=SKColor.Parse("#000000"), ValueLabelOrientation=Orientation.Horizontal };
+            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 40, MaxValue=5, PointSize=35, LineSize=10, LabelColor=SKColor.Parse("#000000"), ValueLabelOrientation=Orientation.Horizontal, BackgroundColor = SKColors.Transparent };
         }
 
         async void Delete_Achievement_Button(object sender, System.EventArgs e)

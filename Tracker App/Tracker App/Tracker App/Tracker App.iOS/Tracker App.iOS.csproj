@@ -148,4 +148,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\Exercise_Placeholder.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Placeholder_Gif.gif" />
+  </ItemGroup>
 </Project>
