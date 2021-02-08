@@ -13643,13 +13643,10 @@ namespace Tracker_App.Droid
 			public const int design_snackbar_background = 2131165289;
 			
 			// aapt resource value: 0x7F070001
-			public const int Exercise_Gif_Placeholder = 2131165185;
+			public const int Exercise_Placeholder = 2131165185;
 			
 			// aapt resource value: 0x7F070002
-			public const int Exercise_Placeholder = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int Hospital = 2131165187;
+			public const int Hospital = 2131165186;
 			
 			// aapt resource value: 0x7F07006A
 			public const int ic_calendar_black_24dp = 2131165290;
@@ -13749,6 +13746,9 @@ namespace Tracker_App.Droid
 			
 			// aapt resource value: 0x7F07008A
 			public const int notify_panel_notification_icon_bg = 2131165322;
+			
+			// aapt resource value: 0x7F070003
+			public const int Placeholder_Gif = 2131165187;
 			
 			// aapt resource value: 0x7F07008B
 			public const int test_custom_background = 2131165323;

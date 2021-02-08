@@ -1,156 +1,122 @@
-PRAGMA foreign_keys = off;
-BEGIN TRANSACTION;
+DROP DATABASE tracker_app; 
 
--- Table: Achievement
-CREATE TABLE Achievement (
-    ID          INTEGER PRIMARY KEY AUTOINCREMENT
-                        UNIQUE
-                        NOT NULL,
-    PatientID   INT     REFERENCES Patient (PatientID) 
-                        NOT NULL,
-    Achievement TEXT    NOT NULL
-);
+CREATE DATABASE tracker_app;
 
+USE tracker_app;
 
--- Table: CPAX
-CREATE TABLE CPAX (
-    ID              INTEGER PRIMARY KEY AUTOINCREMENT
-                            UNIQUE
-                            NOT NULL,
-    Grip            INT     NOT NULL,
-    Respiratory     INT     NOT NULL,
-    Cough           INT     NOT NULL,
-    BedMovement     INT     NOT NULL,
-    DynamicSitting  INT     NOT NULL,
-    StandingBalance INT     NOT NULL,
-    SitToStand      INT     NOT NULL,
-    BedToChair      INT     NOT NULL,
-    Stepping        INT     NOT NULL,
-    Transfer        INT     NOT NULL
-);
-
-
--- Table: ExercisePlan
-CREATE TABLE ExercisePlan (
-    ID         INTEGER  PRIMARY KEY AUTOINCREMENT
-                        UNIQUE
-                        NOT NULL,
-    ExerciseID INT      REFERENCES Exercises (ID) 
-                        NOT NULL,
-    PatientID  INT      REFERENCES Patient (PatientID) 
-                        NOT NULL,
-    StartDate  DATETIME NOT NULL,
-    EndDate    INT      NOT NULL
-);
-
-
--- Table: ExercisePlanSchedule
-CREATE TABLE ExercisePlanSchedule (
-    ID             INTEGER PRIMARY KEY AUTOINCREMENT
-                           UNIQUE
-                           NOT NULL,
-    ExercisePlanID INT     NOT NULL,
-    DayOfWeek      INT     NOT NULL,
-    Hour           INT     NOT NULL
-);
-
-
--- Table: Exercises
-CREATE TABLE Exercises (
-    ID       INTEGER PRIMARY KEY AUTOINCREMENT
-                     NOT NULL
-                     UNIQUE,
-    Name     TEXT    NOT NULL,
-    Category TEXT,
-    StepID   INT     REFERENCES Steps (ID) 
-                     NOT NULL,
-    Image    INT     REFERENCES Image (ID) 
-                     NOT NULL
-);
-
-
--- Table: Goals
-CREATE TABLE Goals (
-    ID        INTEGER PRIMARY KEY AUTOINCREMENT
-                      UNIQUE
-                      NOT NULL,
-    PatientID INT     REFERENCES Patient (PatientID) 
-                      NOT NULL,
-    Goal      TEXT    NOT NULL,
-    Type      BOOLEAN NOT NULL
-);
-
-
--- Table: Image
 CREATE TABLE Image (
-    ID   INTEGER PRIMARY KEY AUTOINCREMENT
-                 NOT NULL
-                 UNIQUE,
-    Data BLOB    NOT NULL
+    ID INT AUTO_INCREMENT NOT NULL UNIQUE,
+    ImageData BLOB NOT NULL,
+    PRIMARY KEY (ID)
 );
 
-
--- Table: ImageCategory
-CREATE TABLE ImageCategory (
-    ID   INTEGER   NOT NULL
-                   PRIMARY KEY AUTOINCREMENT
-                   UNIQUE,
-    Name TEXT (20) NOT NULL
-);
-
-
--- Table: Patient
-CREATE TABLE Patient (
-    PatientID   INT      PRIMARY KEY
-                         NOT NULL
-                         UNIQUE,
-    Name        TEXT     NOT NULL,
-    Admission   DATETIME NOT NULL,
-    Ward        TEXT     NOT NULL,
-    Hospital    TEXT     NOT NULL,
-    Images      TEXT,
-    CurrentCPAX TEXT     NOT NULL,
-    GoalCPAX    TEXT
-);
-
-
--- Table: PatientCPAXMap
-CREATE TABLE PatientCPAXMap (
-    ID        INTEGER  PRIMARY KEY AUTOINCREMENT
-                       UNIQUE
-                       NOT NULL,
-    PatientID INT      REFERENCES Patient (PatientID) 
-                       NOT NULL,
-    CPAXID    INT      NOT NULL
-                       REFERENCES CPAX (ID),
-    Date      DATETIME NOT NULL
-);
-
-
--- Table: PatientImageMap
-CREATE TABLE PatientImageMap (
-    ID         INTEGER PRIMARY KEY AUTOINCREMENT
-                       UNIQUE
-                       NOT NULL,
-    CategoryID INT     REFERENCES ImageCategory (ID) 
-                       NOT NULL,
-    ImageID            REFERENCES Image (ID) 
-                       NOT NULL,
-    PatientID  INT     REFERENCES Patient (PatientID) 
-                       NOT NULL
-);
-
-
--- Table: Steps
 CREATE TABLE Steps (
-    ID    INTEGER PRIMARY KEY AUTOINCREMENT
-                  NOT NULL
-                  UNIQUE,
-    Step  TEXT    NOT NULL,
-    Image INT     REFERENCES Image (ID) 
-                  NOT NULL
+    ID INT AUTO_INCREMENT NOT NULL UNIQUE,
+    Step TEXT NOT NULL,
+    Image INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (Image) REFERENCES Image(ID)
 );
 
+CREATE TABLE Exercises (
+    ID INT AUTO_INCREMENT NOT NULL UNIQUE,
+    ExerciseName TEXT NOT NULL,
+    Category TEXT,
+    StepID INT NOT NULL,
+    Image INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (StepID) REFERENCES Steps(ID),
+    FOREIGN KEY (Image) REFERENCES Image(ID)
+);
 
-COMMIT TRANSACTION;
-PRAGMA foreign_keys = on;
+CREATE TABLE ExercisePlanSchedule (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    ExercisePlanID INT NOT NULL,
+    DayOfWeek INT NOT NULL,
+    HourOfDay INT NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+CREATE TABLE CPAX (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    Grip INT NOT NULL,
+    Respiratory INT NOT NULL,
+    Cough INT NOT NULL,
+    BedMovement INT NOT NULL,
+    DynamicSitting INT NOT NULL,
+    StandingBalance INT NOT NULL,
+    SitToStand INT NOT NULL,
+    BedToChair INT NOT NULL,
+    Stepping INT NOT NULL,
+    Transfer INT NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+CREATE TABLE Patient (
+    PatientID INT NOT NULL UNIQUE,
+    Name TEXT NOT NULL,
+    Admission DATETIME NOT NULL,
+    Ward TEXT NOT NULL,
+    Hospital TEXT NOT NULL,
+    CurrentCPAX TEXT NOT NULL,
+    GoalCPAX INT NOT NULL,
+    PRIMARY KEY (PatientID),
+    FOREIGN KEY (GoalCPAX) REFERENCES CPAX(ID)
+);
+
+CREATE TABLE PatientCPAXMap (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    PatientID INT NOT NULL,
+    CPAXID INT NOT NULL,
+    CPAXDate DATETIME NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID),
+    FOREIGN KEY (CPAXID) REFERENCES CPAX(ID)
+);
+
+CREATE TABLE ImageCategory (
+    ID INT NOT NULL AUTO_INCREMENT UNIQUE,
+    Category TEXT NOT NULL,
+    PatientID INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
+
+CREATE TABLE Achievement (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    PatientID INT NOT NULL,
+    Achievement TEXT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
+
+CREATE TABLE Goals (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    PatientID INT NOT NULL,
+    Goal TEXT NOT NULL,
+    Assigned BOOLEAN NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
+
+CREATE TABLE PatientImageMap (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    CategoryID INT NOT NULL,
+    ImageID INT NOT NULL,
+    PatientID INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (CategoryID) REFERENCES ImageCategory(ID),
+    FOREIGN KEY (ImageID) REFERENCES Image(ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
+
+CREATE TABLE ExercisePlan (
+    ID INT AUTO_INCREMENT UNIQUE NOT NULL,
+    ExerciseID INT NOT NULL,
+    PatientID INT NOT NULL,
+    StartDate DATETIME NOT NULL,
+    EndDate INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (ExerciseID) REFERENCES Exercises(ID),
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
