@@ -30,9 +30,9 @@ namespace Tracker.API.Controllers
             return Ok(TrackerAppContext.Patients.Where(a => a.PatientId == id).Select(b => b));
         }
 
-        [HttpPut]
-        [Route("{id}")]
-        public IActionResult Put(int id)
+        [HttpGet]
+        [Route("check/{id}")]
+        public IActionResult get(int id)
         {
             return Ok(TrackerAppContext.Patients.Select(s => s.PatientId == id));
         }

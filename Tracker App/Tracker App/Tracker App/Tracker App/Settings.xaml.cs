@@ -24,6 +24,7 @@ namespace Tracker_App
             
             if (response == true)
             {
+                Preferences.Remove("PID");
                 await Navigation.PushModalAsync(new Login());
             }
         }

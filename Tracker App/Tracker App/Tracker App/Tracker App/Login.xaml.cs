@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Flurl;
+using Flurl.Http;
 
 namespace Tracker_App
 {
@@ -20,6 +22,7 @@ namespace Tracker_App
 
         async void Login_Button(object sender, System.EventArgs e)
         {
+
             var current = Connectivity.NetworkAccess;
 
             if (current == NetworkAccess.Internet)
@@ -28,7 +31,22 @@ namespace Tracker_App
 
                 if (ID != null && ValidateAmount() == true)
                 {
-                    await Navigation.PushModalAsync(new Tracker_App.Home());
+                    try { 
+                        dynamic d = await "http://10.0.2.2/Tracker.API/Patient/Check".AppendPathSegment(ID).GetStringAsync();
+                        if (d == "[true]")
+                        {
+                            Preferences.Set("PID", ID);
+                            await Navigation.PushModalAsync(new Tracker_App.Home());
+                        }
+                        else
+                        {
+                            await DisplayAlert("Incorrect Login!", "Please Try Again!", "OK");
+                            EnterID.Text = "";
+                        }
+                    } catch
+                    {
+                        await DisplayAlert("Error", "Please Try Again!", "OK");
+                    }
                 }
                 else
                 {

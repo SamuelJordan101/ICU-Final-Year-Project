@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\Desktop\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj": {}
+    "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Database\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\Desktop\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj": {
+    "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Database\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\Desktop\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj",
+        "projectUniqueName": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Database\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj",
         "projectName": "Tracker.API",
-        "projectPath": "C:\\Users\\Sam\\Desktop\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj",
+        "projectPath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Database\\API\\Tracker.API\\Tracker.API\\Tracker.API.csproj",
         "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\Desktop\\API\\Tracker.API\\Tracker.API\\obj\\",
+        "outputPath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Database\\API\\Tracker.API\\Tracker.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -110,3 +110,12 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\EntityFramework.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.CodeDom.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.Data.SqlClient.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Flurl.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Flurl.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Flurl.Http.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Flurl.Http.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\MySqlConnector.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.Text.Encodings.Web.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.Text.Json.dll

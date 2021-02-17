@@ -679,3 +679,12 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\System.CodeDom.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\System.Data.SqlClient.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\MySqlConnector.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Flurl.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Flurl.Http.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Flurl.Http.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Flurl.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Newtonsoft.Json.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\System.Text.Encodings.Web.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\System.Text.Json.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\assets\System.Threading.Tasks.Extensions.dll

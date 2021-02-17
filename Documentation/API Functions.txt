@@ -1,7 +1,7 @@
 API Functions Needed:
 
 Login:
-Check Patient ID - (PUT) /Patient/(PatientID)
+Check Patient ID - (PUT) /Patient/Check/(PatientID)
 
 Information:
 Get Patient Information - (GET) /Patient/(PatientID)

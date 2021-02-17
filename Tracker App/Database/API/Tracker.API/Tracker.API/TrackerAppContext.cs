@@ -116,11 +116,6 @@ namespace Tracker.API
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__ExerciseP__Exerc__4D94879B");
 
-                entity.HasOne(d => d.Patient)
-                    .WithMany(p => p.ExercisePlans)
-                    .HasForeignKey(d => d.PatientId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__ExerciseP__Patie__4E88ABD4");
             });
 
             modelBuilder.Entity<ExercisePlanSchedule>(entity =>
@@ -155,11 +150,6 @@ namespace Tracker.API
 
                 entity.Property(e => e.PatientId).HasColumnName("PatientID");
 
-                entity.HasOne(d => d.Patient)
-                    .WithMany(p => p.Goals)
-                    .HasForeignKey(d => d.PatientId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Goals__PatientID__440B1D61");
             });
 
             modelBuilder.Entity<Image>(entity =>

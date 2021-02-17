@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[1.2.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -124,6 +128,10 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microcharts.Forms": {
               "target": "Package",
               "version": "[0.9.5.9, )"
@@ -146,13 +154,21 @@
               "target": "Package",
               "version": "[1.2.1, )"
             },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1931, )"
+              "version": "[5.0.0.2012, )"
             }
           },
           "imports": [

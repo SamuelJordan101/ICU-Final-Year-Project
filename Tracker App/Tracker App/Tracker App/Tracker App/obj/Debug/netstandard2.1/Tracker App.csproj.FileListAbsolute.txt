@@ -2,7 +2,6 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Tracker App.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\ref\Tracker App.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Tracker App.pdb
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csprojAssemblyReference.cache
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\App.xaml.g.cs
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Exercises.xaml.g.cs
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Goals.xaml.g.cs
@@ -19,3 +18,4 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\ref\Tracker App.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.pdb
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Exercise_Individual.xaml.g.cs
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csprojAssemblyReference.cache

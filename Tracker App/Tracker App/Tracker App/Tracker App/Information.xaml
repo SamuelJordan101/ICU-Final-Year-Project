@@ -15,7 +15,7 @@
                 <Frame CornerRadius="5" Margin="10,0,10,10" BackgroundColor="WhiteSmoke">
                     <StackLayout>
                         <Label Text="Name: Susan Jones" x:Name="Name" FontSize="25" ></Label>
-                        <Label Text="Medical Centre: Derriford Hospital" x:Name="Centre" FontSize="25"></Label>
+                        <Label Text="Medical Centre: Derriford Hospital" x:Name="Hospital" FontSize="25"></Label>
                         <Label Text="Ward Location: Intensive Care Unit (ICU)" x:Name="Ward" FontSize="25"></Label>
                         <Label Text="Admission Date: 15/01/2021" x:Name="Date" FontSize="25"></Label>
 
