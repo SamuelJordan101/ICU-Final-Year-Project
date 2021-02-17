@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using System.Text;
+using MySqlConnector;
 
 namespace Tracker_App
 {
@@ -16,7 +18,6 @@ namespace Tracker_App
 
         protected override void OnStart()
         {
-
         }
 
         protected override void OnSleep()
@@ -28,3 +29,4 @@ namespace Tracker_App
         }
     }
 }
+

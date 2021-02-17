@@ -1,0 +1,33 @@
+API Functions Needed:
+
+Login:
+Check Patient ID - (PUT) /Patient/(PatientID)
+
+Information:
+Get Patient Information - (GET) /Patient/(PatientID)
+
+Goals:
+Add New Personal Goals - (POST) /Goal
+Get Personal Goals - (GET) /Goal/(PatientID)/false
+Get Hospital Goals - (GET) /Goal/(PatientID)/true
+Delete Personal Goals - (DELETE) /Goal/(ID)
+Mark Personal/Hospital Goals As Done - (PUT) /Goal/(ID)
+
+Exercises:
+Get list Of Exercise- (GET) /Exercise
+Get Exercise - (GET) /Exercise/(ID)
+
+Steps:
+Get Steps For Exercise- (GET) /Exercise/(ID)
+
+Images:
+Get Images based on user - (GET) /Image/(ID)
+Get Images based no user - (GET) /Image/0
+
+Progress:
+Get List of CPAX scores - (GET) /CPAX
+
+Achievements:
+Add New Achievement - (POST) /Achievement
+Get Achievements - (GET) /Achievement/(PatientID)
+Delete Achievements - (DELETE) /Achievement/(ID)

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
@@ -21,14 +20,25 @@ namespace Tracker_App
 
         async void Login_Button(object sender, System.EventArgs e)
         {
-            var ID = EnterID.Text;
+            var current = Connectivity.NetworkAccess;
 
-            if (ID != null && ValidateAmount() == true)
+            if (current == NetworkAccess.Internet)
             {
-                await Navigation.PushModalAsync(new Tracker_App.Home());
-            } else {
-                await DisplayAlert("Invalid Entry!", "Please Enter a valid ID", "OK");
+                var ID = EnterID.Text;
+
+                if (ID != null && ValidateAmount() == true)
+                {
+                    await Navigation.PushModalAsync(new Tracker_App.Home());
+                }
+                else
+                {
+                    await DisplayAlert("Invalid Entry!", "Please Enter a valid ID", "OK");
+                    EnterID.Text = "";
+                }
+            } else
+            {
                 EnterID.Text = "";
+                await DisplayAlert("No Internet Access!", "You currently have no internet access. Please connect to the internet and try again", "OK!");
             }
         }
 
