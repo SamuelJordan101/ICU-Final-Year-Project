@@ -9,7 +9,6 @@ namespace Tracker.API.Model
     {
         public Exercise()
         {
-            ExercisePlans = new HashSet<ExercisePlan>();
         }
 
         public int Id { get; set; }
@@ -18,8 +17,5 @@ namespace Tracker.API.Model
         public int StepId { get; set; }
         public int Image { get; set; }
 
-        public virtual Image ImageNavigation { get; set; }
-        public virtual Step Step { get; set; }
-        public virtual ICollection<ExercisePlan> ExercisePlans { get; set; }
     }
 }

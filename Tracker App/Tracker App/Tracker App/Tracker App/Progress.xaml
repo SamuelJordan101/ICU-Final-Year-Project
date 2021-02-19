@@ -22,7 +22,7 @@
                 </Frame>
 
                 <Frame CornerRadius="5" Margin="10,0,10,10">
-                    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Grid x:Name="Achievements_Grid" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
@@ -36,15 +36,6 @@
 
                         <Entry Grid.Row="1" Grid.Column="0" x:Name="Add_Achievement_Input" Placeholder="Enter new achievement..." PlaceholderColor="Silver" TextColor="Black"></Entry>
                         <Button Grid.Row="1" Grid.Column="1" Text="Add" BackgroundColor="DeepSkyBlue" Clicked="Add_Achievement_Button"></Button>
-
-                        <Label Grid.Row="2" Grid.Column="0" Text="Walk Around The Room" FontSize="20" VerticalOptions="Center"></Label>
-                        <Button Grid.Row="2" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
-
-                        <Label Grid.Row="3" Grid.Column="0" Text="1km Walk" FontSize="20" VerticalOptions="Center"></Label>
-                        <Button Grid.Row="3" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
-
-                        <Label Grid.Row="4" Grid.Column="0" Text="5km Walk" FontSize="20" VerticalOptions="Center"></Label>
-                        <Button Grid.Row="4" Grid.Column="1" Text="X" BackgroundColor="Red" FontSize="30" Clicked="Delete_Achievement_Button"></Button>
                     </Grid>
                 </Frame>
             </StackLayout>

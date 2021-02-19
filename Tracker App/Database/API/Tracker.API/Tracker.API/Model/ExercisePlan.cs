@@ -9,7 +9,6 @@ namespace Tracker.API.Model
     {
         public ExercisePlan()
         {
-            ExercisePlanSchedules = new HashSet<ExercisePlanSchedule>();
         }
 
         public int Id { get; set; }
@@ -18,8 +17,5 @@ namespace Tracker.API.Model
         public DateTime StartDate { get; set; }
         public int EndDate { get; set; }
 
-        public virtual Exercise Exercise { get; set; }
-        public virtual Patient Patient { get; set; }
-        public virtual ICollection<ExercisePlanSchedule> ExercisePlanSchedules { get; set; }
     }
 }

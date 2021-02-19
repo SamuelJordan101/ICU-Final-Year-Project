@@ -12,6 +12,5 @@ namespace Tracker.API.Model
         public int DayOfWeek { get; set; }
         public int HourOfDay { get; set; }
 
-        public virtual ExercisePlan ExercisePlan { get; set; }
     }
 }

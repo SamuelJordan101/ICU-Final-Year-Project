@@ -7335,6 +7335,7 @@
     ".NETStandard,Version=v2.1": [
       "EntityFramework >= 6.4.4",
       "Flurl.Http >= 3.0.1",
+      "Microcharts >= 0.9.5.9",
       "Microcharts.Forms >= 0.9.5.9",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.3",
@@ -7397,6 +7398,10 @@
           "Flurl.Http": {
             "target": "Package",
             "version": "[3.0.1, )"
+          },
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.9.5.9, )"
           },
           "Microcharts.Forms": {
             "target": "Package",

@@ -26,7 +26,7 @@ namespace Tracker.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(TrackerAppContext.Exercises.Select(b => b.ExerciseName));
+            return Ok(TrackerAppContext.Exercises.Select(b => b));
         }
 
         [HttpGet]

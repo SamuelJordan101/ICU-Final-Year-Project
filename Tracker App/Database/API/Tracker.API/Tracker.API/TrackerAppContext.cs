@@ -82,17 +82,6 @@ namespace Tracker.API
 
                 entity.Property(e => e.StepId).HasColumnName("StepID");
 
-                entity.HasOne(d => d.ImageNavigation)
-                    .WithMany(p => p.Exercises)
-                    .HasForeignKey(d => d.Image)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Exercises__Image__2D27B809");
-
-                entity.HasOne(d => d.Step)
-                    .WithMany(p => p.Exercises)
-                    .HasForeignKey(d => d.StepId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Exercises__StepI__2C3393D0");
             });
 
             modelBuilder.Entity<ExercisePlan>(entity =>
@@ -110,12 +99,6 @@ namespace Tracker.API
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
 
-                entity.HasOne(d => d.Exercise)
-                    .WithMany(p => p.ExercisePlans)
-                    .HasForeignKey(d => d.ExerciseId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__ExerciseP__Exerc__4D94879B");
-
             });
 
             modelBuilder.Entity<ExercisePlanSchedule>(entity =>
@@ -129,11 +112,6 @@ namespace Tracker.API
 
                 entity.Property(e => e.ExercisePlanId).HasColumnName("ExercisePlanID");
 
-                entity.HasOne(d => d.ExercisePlan)
-                    .WithMany(p => p.ExercisePlanSchedules)
-                    .HasForeignKey(d => d.ExercisePlanId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__ExerciseP__Exerc__52593CB8");
             });
 
             modelBuilder.Entity<Goal>(entity =>
@@ -205,12 +183,6 @@ namespace Tracker.API
                     .IsRequired()
                     .HasColumnType("text")
                     .HasColumnName("Step");
-
-                entity.HasOne(d => d.ImageNavigation)
-                    .WithMany(p => p.Steps)
-                    .HasForeignKey(d => d.Image)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Steps__Image__286302EC");
             });
 
             OnModelCreatingPartial(modelBuilder);

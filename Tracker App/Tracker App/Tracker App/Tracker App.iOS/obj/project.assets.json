@@ -1462,6 +1462,7 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Flurl.Http": "3.0.1",
+          "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
@@ -2814,6 +2815,7 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Flurl.Http": "3.0.1",
+          "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
@@ -4169,6 +4171,7 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Flurl.Http": "3.0.1",
+          "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
@@ -5524,6 +5527,7 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Flurl.Http": "3.0.1",
+          "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "MySql.Data.EntityFrameworkCore": "8.0.22",

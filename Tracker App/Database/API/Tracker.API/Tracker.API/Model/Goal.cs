@@ -12,7 +12,5 @@ namespace Tracker.API.Model
         public string Goal1 { get; set; }
         public bool Assigned { get; set; }
         public bool? Done { get; set; }
-
-        public virtual Patient Patient { get; set; }
     }
 }
