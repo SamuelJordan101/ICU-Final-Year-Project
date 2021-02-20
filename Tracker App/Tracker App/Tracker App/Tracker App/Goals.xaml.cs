@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Flurl;
 using Flurl.Http;
 using Xamarin.Essentials;
+using Acr.UserDialogs;
 
 namespace Tracker_App
 {
@@ -32,6 +33,7 @@ namespace Tracker_App
 
         async void LoadInfo()
         {
+            UserDialogs.Instance.ShowLoading("Loading Goals...");
             var ID = Preferences.Get("PID", "");
             List<goal> UserData = await "http://10.0.2.2/Tracker.API/Goal/".AppendPathSegment(ID).AppendPathSegment(false).GetJsonAsync<List<goal>>();
 
@@ -110,6 +112,7 @@ namespace Tracker_App
                     Hospital_Goals.Children.Add(goalDone);
                 }
             }
+            UserDialogs.Instance.HideLoading();
         }
 
         async void Done_Goal_Button(object sender, System.EventArgs e)

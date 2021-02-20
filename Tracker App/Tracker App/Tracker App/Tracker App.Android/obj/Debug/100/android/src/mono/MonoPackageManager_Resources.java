@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Tracker App.Android.dll" comes first in this list. */
 		"Tracker App.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"BouncyCastle.Crypto.dll",
 		"EntityFramework.dll",
 		"EntityFramework.SqlServer.dll",

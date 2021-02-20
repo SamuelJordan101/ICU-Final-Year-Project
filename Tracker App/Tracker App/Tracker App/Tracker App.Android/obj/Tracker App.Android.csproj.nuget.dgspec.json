@@ -124,6 +124,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.475, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"

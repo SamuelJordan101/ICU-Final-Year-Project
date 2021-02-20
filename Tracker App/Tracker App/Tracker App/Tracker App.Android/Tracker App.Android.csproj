@@ -109,9 +109,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Hospital.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Tracker App\Tracker App.csproj">
       <Project>{F957113E-58CE-44F6-BB3E-A6A2D69A8F0B}</Project>
       <Name>Tracker App</Name>
@@ -121,15 +118,12 @@
     <AndroidResource Include="Resources\drawable\Background.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Exercise_Placeholder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Placeholder_Gif.gif" />
+    <AndroidResource Include="Resources\drawable\Exercise_1.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadUnhandledDeviceExceptionTrackerAppAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
+      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadUnhandledDeviceExceptionTrackerAppAndroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

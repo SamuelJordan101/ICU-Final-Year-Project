@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using Flurl;
 using Flurl.Http;
+using Acr.UserDialogs;
 
 namespace Tracker_App
 {
@@ -33,6 +34,7 @@ namespace Tracker_App
 
         async void LoadInfo()
         {
+            UserDialogs.Instance.ShowLoading("Loading Information...");
             var ID = Preferences.Get("PID","");
             List<patientdata> data = await "http://10.0.2.2/Tracker.API/Patient/".AppendPathSegment(ID).GetJsonAsync<List<patientdata>>();
 
@@ -40,6 +42,7 @@ namespace Tracker_App
             Hospital.Text = "Medical Centre: " + data[0].hospital;
             Ward.Text = "Ward: " + data[0].ward;
             Date.Text = "Admission Date: " + (data[0].admission.ToString()).Substring(0, data[0].admission.ToString().Length-11);
+            UserDialogs.Instance.HideLoading();
         }
     }
 }

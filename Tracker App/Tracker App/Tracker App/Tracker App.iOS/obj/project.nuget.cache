@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xSwU0HJOjPjJGBioi904b59sPeimQliLJx159PWQ54PLH8VLva5d7fs5soWT2pCx6br+PoMeK2EuWkUWNEioRA==",
+  "dgSpecHash": "dx3EHI3wgawB7wdQz3oyF+h/MnpuZvbB0ls1DhS0020l3gwN6YhthQ5yP4cvb2v+jDIjvi3vj5sy/HlXzd9Nag==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App.iOS\\Tracker App.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\flurl.http\\3.0.1\\flurl.http.3.0.1.nupkg.sha512",

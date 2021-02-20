@@ -18,7 +18,7 @@ Get list Of Exercise- (GET) /Exercise
 Get Exercise - (GET) /Exercise/(ID)
 
 Steps:
-Get Steps For Exercise- (GET) /Exercise/(ID)
+Get Steps For Exercise- (GET) /Step/(ExerciseID)
 
 Images:
 Get Images based on user - (GET) /Image/(ID)

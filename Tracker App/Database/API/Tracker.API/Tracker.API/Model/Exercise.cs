@@ -14,8 +14,7 @@ namespace Tracker.API.Model
         public int Id { get; set; }
         public string ExerciseName { get; set; }
         public string Category { get; set; }
-        public int StepId { get; set; }
         public int Image { get; set; }
-
+        public int Gif { get; set; }
     }
 }

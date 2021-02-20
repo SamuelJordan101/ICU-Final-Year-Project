@@ -14,23 +14,24 @@ CREATE TABLE Image (
     PRIMARY KEY (ID)
 );
 
-CREATE TABLE Steps (
-    ID INT IDENTITY(1,1) NOT NULL UNIQUE,
-    Step TEXT NOT NULL,
-    Image INT NOT NULL,
-    PRIMARY KEY (ID),
-    FOREIGN KEY (Image) REFERENCES Image(ID)
-);
-
 CREATE TABLE Exercises (
     ID INT IDENTITY(1,1) NOT NULL UNIQUE,
     ExerciseName TEXT NOT NULL,
     Category TEXT,
-    StepID INT NOT NULL,
     Image INT NOT NULL,
+	Gif INT NOT NULL,
     PRIMARY KEY (ID),
-    FOREIGN KEY (StepID) REFERENCES Steps(ID),
     FOREIGN KEY (Image) REFERENCES Image(ID)
+);
+
+CREATE TABLE Steps (
+    ID INT IDENTITY(1,1) NOT NULL UNIQUE,
+    Step TEXT NOT NULL,
+    Image INT NOT NULL,
+	ExerciseID INT NOT NULL,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (Image) REFERENCES Image(ID),
+	FOREIGN KEY (ExerciseID) REFERENCES Exercises(ID)
 );
 
 CREATE TABLE CPAX (
@@ -108,5 +109,38 @@ VALUES (111111,'Sam Jordan', '2021/01/01', 'ICU', 'Derriford Hospital', '1');
 INSERT INTO Image (ImageData)
 VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\ExercisePlaceholder.png', SINGLE_BLOB) as T1));
 
-INSERT INTO Image (ImageData, PatientID)
+INSERT INTO Image (ImageData)
+VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\Exercise Gif Placeholder.gif', SINGLE_BLOB) as T1));
+
+INSERT INTO Image (ImageData, PatientID) 
 VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\Derriford Hospital.jpg', SINGLE_BLOB) as T1),111111);
+
+INSERT INTO Achievement 
+VALUES (111111,'Walked 1K');
+
+INSERT INTO Goals (PatientID, Goal, Assigned) 
+VALUES (111111,'Get Out Of Bed', 'FALSE');
+
+INSERT INTO Goals (PatientID, Goal, Assigned) 
+VALUES (111111,'Have 3 Meals', 'FALSE');
+
+INSERT INTO Exercises
+VALUES ('Arm Curls','Arm','1','2');
+
+INSERT INTO Steps 
+VALUES ('Pick up Weight','1','1');
+
+INSERT INTO Steps 
+VALUES ('Curl Weight','1','1');
+
+INSERT INTO Exercises
+VALUES ('Leg Stretches','Leg','2','2');
+
+INSERT INTO Steps 
+VALUES ('Stand Up','1','2');
+
+INSERT INTO Steps 
+VALUES ('Put your leg infront of you','1','2');
+
+INSERT INTO Steps 
+VALUES ('Pull your leg up','1','2');

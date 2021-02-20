@@ -27,10 +27,10 @@ namespace Tracker.API.Controllers
         [Route("{id}")]
         public IActionResult Get(int id)
         {
-            if (!TrackerAppContext.Exercises.Any(a => a.Id == id))
+            if (!TrackerAppContext.Steps.Any(a => a.ExerciseID == id))
                 return BadRequest("Exercise Does Not Exist");
 
-            return Ok(TrackerAppContext.Exercises.Where(a => a.Id == id));
+            return Ok(TrackerAppContext.Steps.Where(a => a.ExerciseID == id));
         }
     }
 }

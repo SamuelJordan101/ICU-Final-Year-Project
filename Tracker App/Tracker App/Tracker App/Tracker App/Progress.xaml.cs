@@ -11,6 +11,7 @@ using SkiaSharp;
 using Flurl;
 using Flurl.Http;
 using Xamarin.Essentials;
+using Acr.UserDialogs;
 
 namespace Tracker_App
 {
@@ -156,10 +157,12 @@ namespace Tracker_App
             };
 
             CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 34, MaxValue = 5, PointSize = 35, LineSize = 10, LabelColor = SKColor.Parse("#000000"), LabelOrientation = Orientation.Horizontal ,ValueLabelOrientation = Orientation.Horizontal, BackgroundColor = SKColors.Transparent };
+            UserDialogs.Instance.HideLoading();
         }
 
         async void LoadInfo()
         {
+            UserDialogs.Instance.ShowLoading("Loading Progress...");
             var ID = Preferences.Get("PID", "");
             List<achievement> UserData = await "http://10.0.2.2/Tracker.API/Achievement/".AppendPathSegment(ID).GetJsonAsync<List<achievement>>();
 

@@ -80,8 +80,6 @@ namespace Tracker.API
                     .IsRequired()
                     .HasColumnType("text");
 
-                entity.Property(e => e.StepId).HasColumnName("StepID");
-
             });
 
             modelBuilder.Entity<ExercisePlan>(entity =>

@@ -8,8 +8,8 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout>
-                    <Frame CornerRadius="5" Margin="10,10,10,0" BackgroundColor="LightBlue">
+                <StackLayout x:Name="StepLayout">
+                    <Frame BackgroundColor="LightBlue">
                         <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
@@ -20,53 +20,16 @@
                                 <ColumnDefinition Width="0.45*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <Label Text="Arm Stretches" Grid.ColumnSpan="2" TextColor="Black"  HorizontalOptions="Center" FontSize="35" FontAttributes="Bold" Padding="0,0,0,10"></Label>
-
-                            <Label Text="This exercise is used to increase your arm strength and muscle longevity" Grid.Row="1" FontSize="18"></Label>
-                            <Image Source="Exercise_Placeholder.png" Grid.Row="1" Grid.Column="1" Aspect="AspectFit"></Image>
+                            <Label x:Name="Exercise_Name" Grid.ColumnSpan="2" TextColor="Black"  HorizontalOptions="Center" FontSize="35" FontAttributes="Bold" Padding="0,0,0,10"></Label>
                         </Grid>
                     </Frame>
 
-                    <Frame CornerRadius="5" Margin="10,10,10,0">
+                    <Frame CornerRadius="5" Margin="10,0,10,0">
                         <StackLayout>
                             <Label Text="Steps" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,0,0,10"></Label>
 
-                            <Image Source="Placeholder_Gif" IsAnimationPlaying="True"></Image>
+                            <Image x:Name="Exercise_Gif" IsAnimationPlaying="True"></Image>
                         </StackLayout>
-                    </Frame>
-
-                    <Frame Padding="10,10,10,10" Margin="10,10,10,0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                            </Grid.RowDefinitions>
-                            
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="0.6*"></ColumnDefinition>
-                                <ColumnDefinition Width="0.4*"></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-
-                            <Label Text="Step 1" FontSize="25"></Label>
-                            <Label Text="Instructions for step 1 of exercise" Grid.Row="1"></Label>
-                            <Image Source="Exercise_Placeholder" Grid.Column="1" Grid.RowSpan="2" Aspect="AspectFill"></Image>
-                        </Grid>
-                    </Frame>
-
-                    <Frame Padding="10,10,10,10" Margin="10,10,10,10">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="0.6*"></ColumnDefinition>
-                                <ColumnDefinition Width="0.4*"></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-
-                            <Label Text="Step 2" FontSize="25"></Label>
-                            <Label Text="Instructions for step 2 of exercise" Grid.Row="1"></Label>
-                            <Image Source="Exercise_Placeholder" Grid.Column="1" Grid.RowSpan="2" Aspect="AspectFill"></Image>
-                        </Grid>
                     </Frame>
                 </StackLayout>
             </ScrollView>

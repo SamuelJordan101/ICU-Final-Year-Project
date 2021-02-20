@@ -10,6 +10,7 @@ using Flurl;
 using Flurl.Http;
 using Xamarin.Essentials;
 using System.IO;
+using Acr.UserDialogs;
 
 namespace Tracker_App
 {
@@ -19,6 +20,7 @@ namespace Tracker_App
         public Exercises()
         {
             InitializeComponent();
+            Preferences.Remove("Exercise");
             LoadExercises();
         }
 
@@ -27,7 +29,6 @@ namespace Tracker_App
             public int Id { get; set; }
             public string ExerciseName { get; set; }
             public string Category { get; set; }
-            public int StepId { get; set; }
             public int Image { get; set; }
         }
 
@@ -41,6 +42,7 @@ namespace Tracker_App
 
         async void LoadExercises()
         {
+            UserDialogs.Instance.ShowLoading("Loading Exercises...");
             List<exercise> ExerciseData = await "http://10.0.2.2/Tracker.API/Exercise".GetJsonAsync<List<exercise>>();
 
             for(var i = 0; i < ExerciseData.Count; i++)
@@ -90,7 +92,7 @@ namespace Tracker_App
                 ExerciseButton.SetValue(Grid.RowProperty, 1);
                 ExerciseButton.SetValue(Grid.ColumnSpanProperty, 2);
                 ExerciseButton.Clicked += Exercise_Button;
-                ExerciseButton.ClassId = i.ToString();
+                ExerciseButton.ClassId = ExerciseData[i].Id.ToString();
 
                 ExerciseGrid.Children.Add(ExerciseLabel);
                 ExerciseGrid.Children.Add(ExerciseImage);
@@ -98,10 +100,16 @@ namespace Tracker_App
 
                 ExerciseLayout.Children.Add(ExerciseFrame);
             }
+            UserDialogs.Instance.HideLoading();
         }
 
         void Exercise_Button(object sender, System.EventArgs e)
         {
+            var button = (Button)sender;
+            var ExerciseID = int.Parse(button.ClassId);
+
+            Preferences.Set("Exercise", ExerciseID);
+
             Navigation.PushModalAsync(new Tracker_App.Exercise_Individual());
         }
     }

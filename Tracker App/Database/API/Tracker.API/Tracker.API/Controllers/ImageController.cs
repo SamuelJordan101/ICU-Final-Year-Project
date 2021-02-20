@@ -32,5 +32,12 @@ namespace Tracker.API.Controllers
 
             return Ok(TrackerAppContext.Images.Where(a => a.PatientID == id).Select(b => b));
         }
+
+        [HttpGet]
+        [Route("Exercise/{id}")]
+        public IActionResult get(int id)
+        {
+            return Ok(TrackerAppContext.Images.Where(a => a.Id == id).Select(b => b));
+        }
     }
 }

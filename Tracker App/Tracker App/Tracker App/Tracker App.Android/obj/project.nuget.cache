@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LNKI+Mf4xGLCKyg6NZN/Skv1Pj+tOsEiCFD2z9iplR45CyGVfq3/Yorog19W2+0Rx+TpEFmoIXUtIdhiMIPI1g==",
+  "dgSpecHash": "CNgzFoLwQvD6SBuXg0+0LP86V90Se7J9r0DlfkHn/XlkiI+3n3jrRE+ibyeu9IGUOWdDgSQR4VB6TafG8AixKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App.Android\\Tracker App.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",

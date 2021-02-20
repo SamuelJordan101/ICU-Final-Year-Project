@@ -12,7 +12,6 @@ namespace Tracker_App
         public App()
         {
             InitializeComponent();
-
             MainPage = new Tracker_App.Login();
         }
 
