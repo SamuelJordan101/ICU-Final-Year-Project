@@ -36,7 +36,9 @@ namespace Tracker_App
         {
             UserDialogs.Instance.ShowLoading("Loading Information...");
             var ID = Preferences.Get("PID","");
-            List<patientdata> data = await "http://10.0.2.2/Tracker.API/Patient/".AppendPathSegment(ID).GetJsonAsync<List<patientdata>>();
+            var URL = await SecureStorage.GetAsync("URL");
+
+            List<patientdata> data = await URL.AppendPathSegment("Patient").AppendPathSegment(ID).GetJsonAsync<List<patientdata>>();
 
             Name.Text = "Name: " + data[0].name;
             Hospital.Text = "Medical Centre: " + data[0].hospital;

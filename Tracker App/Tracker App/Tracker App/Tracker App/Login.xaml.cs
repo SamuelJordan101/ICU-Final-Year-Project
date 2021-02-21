@@ -34,7 +34,8 @@ namespace Tracker_App
                 {
                     UserDialogs.Instance.ShowLoading("Logging In...");
                     try {
-                        dynamic d = await "http://10.0.2.2/Tracker.API/Patient/Check".AppendPathSegment(ID).GetStringAsync();
+                        var URL = await SecureStorage.GetAsync("URL");
+                        dynamic d = await URL.AppendPathSegment("Patient").AppendPathSegment("Check").AppendPathSegment(ID).GetStringAsync();
                         if (d == "[true]")
                         {
                             Preferences.Set("PID", ID);

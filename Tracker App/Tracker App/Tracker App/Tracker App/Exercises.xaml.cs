@@ -43,11 +43,13 @@ namespace Tracker_App
         async void LoadExercises()
         {
             UserDialogs.Instance.ShowLoading("Loading Exercises...");
-            List<exercise> ExerciseData = await "http://10.0.2.2/Tracker.API/Exercise".GetJsonAsync<List<exercise>>();
+            var URL = await SecureStorage.GetAsync("URL");
+
+            List<exercise> ExerciseData = await URL.AppendPathSegment("Exercise").GetJsonAsync<List<exercise>>();
 
             for(var i = 0; i < ExerciseData.Count; i++)
             {
-                List<image> Image = await "http://10.0.2.2/Tracker.API/Image/".AppendPathSegment(i).GetJsonAsync<List<image>>();
+                List<image> Image = await URL.AppendPathSegment("Image").AppendPathSegment(i).GetJsonAsync<List<image>>();
 
                 var ExerciseGrid = new Grid
                 {

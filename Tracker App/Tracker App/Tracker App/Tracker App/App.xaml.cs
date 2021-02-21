@@ -12,6 +12,7 @@ namespace Tracker_App
         public App()
         {
             InitializeComponent();
+            URL();
             MainPage = new Tracker_App.Login();
         }
 
@@ -25,6 +26,11 @@ namespace Tracker_App
 
         protected override void OnResume()
         {
+        }
+
+        async void URL()
+        {
+            await SecureStorage.SetAsync("URL", "http://192.168.1.225/Tracker.API/");
         }
     }
 }

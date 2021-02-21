@@ -35,7 +35,9 @@ namespace Tracker_App
         {
             UserDialogs.Instance.ShowLoading("Loading Goals...");
             var ID = Preferences.Get("PID", "");
-            List<goal> UserData = await "http://10.0.2.2/Tracker.API/Goal/".AppendPathSegment(ID).AppendPathSegment(false).GetJsonAsync<List<goal>>();
+            var URL = await SecureStorage.GetAsync("URL");
+
+            List<goal> UserData = await URL.AppendPathSegment("Goal").AppendPathSegment(ID).AppendPathSegment(false).GetJsonAsync<List<goal>>();
 
             for (var i = 0; i < UserData.Count;i++)
             {
@@ -80,7 +82,7 @@ namespace Tracker_App
                 }
             }
 
-            List<goal> HospitalData = await "http://10.0.2.2/Tracker.API/Goal/".AppendPathSegment(ID).AppendPathSegment(true).GetJsonAsync<List<goal>>();
+            List<goal> HospitalData = await URL.AppendPathSegment("Goal").AppendPathSegment(ID).AppendPathSegment(true).GetJsonAsync<List<goal>>();
 
             for (var i = 0; i < HospitalData.Count; i++)
             {
@@ -119,8 +121,9 @@ namespace Tracker_App
         {
             var button = (Button)sender;
             var ID = int.Parse(button.ClassId);
+            var URL = await SecureStorage.GetAsync("URL");
 
-            await "http://10.0.2.2/Tracker.API/Goal/".AppendPathSegment(ID).PutAsync();
+            await URL.AppendPathSegment("Goal").AppendPathSegment(ID).PutAsync();
 
             var HospitalSet = button.StyleId;
             var row = Grid.GetRow(button);
@@ -153,8 +156,9 @@ namespace Tracker_App
             {
                 var button = (Button)sender;
                 var ID = int.Parse(button.ClassId);
+                var URL = await SecureStorage.GetAsync("URL");
 
-                await "http://10.0.2.2/Tracker.API/Goal/".AppendPathSegment(ID).DeleteAsync();
+                await URL.AppendPathSegment("Goal").AppendPathSegment(ID).DeleteAsync();
 
                 var row = Grid.GetRow(button);
                 var children = User_Goals.Children.ToList();
@@ -171,7 +175,9 @@ namespace Tracker_App
         async void Add_Goal_Button(object sender, System.EventArgs e)
         {
             int ID = int.Parse(Preferences.Get("PID", ""));
-            await "http://10.0.2.2/Tracker.API/Goal".PostJsonAsync(new { PatientId = ID, Goal1 = Add_Goal_Input.Text, Assigned = false, Done = false });
+            var URL = await SecureStorage.GetAsync("URL");
+
+            await URL.AppendPathSegment("Goal").PostJsonAsync(new { PatientId = ID, Goal1 = Add_Goal_Input.Text, Assigned = false, Done = false });
 
             Add_Goal_Input.Text = "";
 

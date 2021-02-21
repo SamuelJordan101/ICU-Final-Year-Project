@@ -94,7 +94,8 @@ namespace Tracker_App
         async void CPAXChart()
         {
             var ID = Preferences.Get("PID", "");
-            List<cpax> tempCpax = await "http://10.0.2.2/Tracker.API/CPAX/".AppendPathSegment(ID).GetJsonAsync<List<cpax>>();
+            var URL = await SecureStorage.GetAsync("URL");
+            List<cpax> tempCpax = await URL.AppendPathSegment("CPAX").AppendPathSegment(ID).GetJsonAsync<List<cpax>>();
 
             int length;
 
@@ -164,7 +165,9 @@ namespace Tracker_App
         {
             UserDialogs.Instance.ShowLoading("Loading Progress...");
             var ID = Preferences.Get("PID", "");
-            List<achievement> UserData = await "http://10.0.2.2/Tracker.API/Achievement/".AppendPathSegment(ID).GetJsonAsync<List<achievement>>();
+            var URL = await SecureStorage.GetAsync("URL");
+
+            List<achievement> UserData = await URL.AppendPathSegment("Achievement").AppendPathSegment(ID).GetJsonAsync<List<achievement>>();
 
             for (var i = 0; i < UserData.Count; i++)
             {
@@ -202,8 +205,9 @@ namespace Tracker_App
             {
                 var button = (Button)sender;
                 var ID = int.Parse(button.ClassId);
+                var URL = await SecureStorage.GetAsync("URL");
 
-                await "http://10.0.2.2/Tracker.API/Achievement/".AppendPathSegment(ID).DeleteAsync();
+                await URL.AppendPathSegment("Achievement").AppendPathSegment(ID).DeleteAsync();
 
                 var row = Grid.GetRow(button);
                 var children = Achievements_Grid.Children.ToList();
@@ -220,7 +224,9 @@ namespace Tracker_App
         async void Add_Achievement_Button(object sender, System.EventArgs e)
         {
             int ID = int.Parse(Preferences.Get("PID", ""));
-            await "http://10.0.2.2/Tracker.API/Achievement".PostJsonAsync(new { PatientID = ID, Achievement1 = Add_Achievement_Input.Text });
+            var URL = await SecureStorage.GetAsync("URL");
+
+            await URL.AppendPathSegment("Achievement").PostJsonAsync(new { PatientID = ID, Achievement1 = Add_Achievement_Input.Text });
 
             Add_Achievement_Input.Text = "";
 

@@ -50,18 +50,19 @@ namespace Tracker_App
         {
             UserDialogs.Instance.ShowLoading("Loading Steps...");
             var Exercise = Preferences.Get("Exercise",1);
+            var URL = await SecureStorage.GetAsync("URL");
 
-            List<step> Steps = await "http://10.0.2.2/Tracker.API/Step/".AppendPathSegment(Exercise).GetJsonAsync<List<step>>();
-            List<exercise> ExerciseData = await "http://10.0.2.2/Tracker.API/Exercise/".AppendPathSegment(Exercise).GetJsonAsync<List<exercise>>();
-            List<image> ExerciseImage = await "http://10.0.2.2/Tracker.API/Image/Exercise/".AppendPathSegment(ExerciseData[0].Image).GetJsonAsync<List<image>>();
-            List<image> ExerciseGif = await "http://10.0.2.2/Tracker.API/Image/Exercise/".AppendPathSegment(ExerciseData[0].Gif).GetJsonAsync<List<image>>();
+            List<step> Steps = await URL.AppendPathSegment("Step").AppendPathSegment(Exercise).GetJsonAsync<List<step>>();
+            List<exercise> ExerciseData = await URL.AppendPathSegment("Exercise").AppendPathSegment(Exercise).GetJsonAsync<List<exercise>>();
+            List<image> ExerciseImage = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[0].Image).GetJsonAsync<List<image>>();
+            List<image> ExerciseGif = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[0].Gif).GetJsonAsync<List<image>>();
 
             Exercise_Name.Text = ExerciseData[0].ExerciseName;
             Exercise_Gif.Source = "Exercise_1.gif";
 
             for (var i = 0; i < Steps.Count; i++)
             {
-                List<image> StepIndividualImage = await "http://10.0.2.2/Tracker.API/Image/Exercise/".AppendPathSegment(Steps[i].Image).GetJsonAsync<List<image>>();
+                List<image> StepIndividualImage = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(Steps[i].Image).GetJsonAsync<List<image>>();
 
                 var StepGrid = new Grid
                 {
