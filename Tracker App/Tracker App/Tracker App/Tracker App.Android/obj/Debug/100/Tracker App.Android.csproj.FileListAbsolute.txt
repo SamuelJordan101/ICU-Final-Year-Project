@@ -1,10 +1,5 @@
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\Tracker App.Android.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\Tracker App.Android.pdb
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.companyname.tracker_app.apk
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.companyname.tracker_app.aab
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.companyname.tracker_app-Signed.aab
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.companyname.tracker_app-Signed.apk
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.companyname.tracker_app-Signed.apk.idsig
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\Tracker App.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\Tracker App.pdb
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
@@ -21,26 +16,13 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\Tracker App.Android.csproj.CopyComplete
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\Tracker App.Android.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\Tracker App.Android.pdb
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.companyname.tracker_app.apk
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\base.zip
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.companyname.tracker_app.aab
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.companyname.tracker_app.apks
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\layout\tabbar.xml
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\layout\toolbar.xml
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\values\styles.xml
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\values\colors.xml
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-anydpi-v26\icon.xml
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-anydpi-v26\icon_round.xml
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-hdpi\icon.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-hdpi\launcher_foreground.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-mdpi\icon.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-mdpi\launcher_foreground.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xhdpi\icon.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xhdpi\launcher_foreground.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxhdpi\icon.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxhdpi\launcher_foreground.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxxhdpi\icon.png
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\drawable\background.png
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\uploadflags.txt
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\resolvedassemblies.hash
@@ -703,3 +685,18 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\crc64b76f6e8b2d8c8db1\LoginAppCompatDialogFragment.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\crc64b76f6e8b2d8c8db1\PromptAppCompatDialogFragment.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\crc64b76f6e8b2d8c8db1\TimeAppCompatDialogFragment.java
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.samueljordan.tracker_app.apk
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.samueljordan.tracker_app.aab
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.samueljordan.tracker_app-Signed.aab
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.samueljordan.tracker_app-Signed.apk
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\bin\Debug\com.samueljordan.tracker_app-Signed.apk.idsig
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.samueljordan.tracker_app.apk
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.samueljordan.tracker_app.aab
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\com.samueljordan.tracker_app.apks
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\com\samueljordan\tracker_app\R.java
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-hdpi\appicon.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-mdpi\appicon.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxxhdpi\appicon.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xxhdpi\appicon.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\mipmap-xhdpi\appicon.png
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\res\drawable\appicon.png
