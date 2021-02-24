@@ -1,0 +1,14 @@
+INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
+VALUES (111112,'2021/01/01',1,1,1,1,1,1,1,1,1,1);
+
+INSERT INTO Patient 
+VALUES (111112,'Mr Test User', '2021/01/01', 'ICU', 'Derriford Hospital', '1');
+
+INSERT INTO Achievement 
+VALUES (111112,'Walked 1K');
+
+INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
+VALUES (111112,'Get Out Of Bed', 'FALSE', 'FALSE');
+
+INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
+VALUES (111112,'Have 2 Meals', 'TRUE', 'FALSE');

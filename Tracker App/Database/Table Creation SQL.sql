@@ -9,8 +9,8 @@ Exec Sp_executesql @sql
 CREATE TABLE Image (
     ID INT IDENTITY(1,1) NOT NULL UNIQUE,
     ImageData IMAGE NOT NULL,
-	Category TEXT,
-	PatientID INT,
+    Category TEXT,
+    PatientID INT,
     PRIMARY KEY (ID)
 );
 
@@ -19,7 +19,7 @@ CREATE TABLE Exercises (
     ExerciseName TEXT NOT NULL,
     Category TEXT,
     Image INT NOT NULL,
-	Gif INT NOT NULL,
+    Gif INT NOT NULL,
     PRIMARY KEY (ID),
     FOREIGN KEY (Image) REFERENCES Image(ID)
 );
@@ -28,7 +28,7 @@ CREATE TABLE Steps (
     ID INT IDENTITY(1,1) NOT NULL UNIQUE,
     Step TEXT NOT NULL,
     Image INT NOT NULL,
-	ExerciseID INT NOT NULL,
+    ExerciseID INT NOT NULL,
     PRIMARY KEY (ID),
     FOREIGN KEY (Image) REFERENCES Image(ID),
 	FOREIGN KEY (ExerciseID) REFERENCES Exercises(ID)
@@ -36,8 +36,8 @@ CREATE TABLE Steps (
 
 CREATE TABLE CPAX (
     ID INT IDENTITY(1,1) UNIQUE NOT NULL,
-	PatientID INT NOT NULL,
-	CPAXDate DATETIME NOT NULL,
+    PatientID INT NOT NULL,
+    CPAXDate DATETIME NOT NULL,
     Grip INT NOT NULL,
     Respiratory INT NOT NULL,
     Cough INT NOT NULL,
@@ -91,15 +91,6 @@ CREATE TABLE ExercisePlan (
     FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
 );
 
-CREATE TABLE ExercisePlanSchedule (
-    ID INT IDENTITY(1,1) UNIQUE NOT NULL,
-    ExercisePlanID INT NOT NULL,
-    DayOfWeek INT NOT NULL,
-    HourOfDay INT NOT NULL,
-    PRIMARY KEY (ID),
-    FOREIGN KEY (ExercisePlanID) REFERENCES ExercisePlan(ID)
-);
-
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
 VALUES (111111,'2021/01/01',1,1,1,1,1,1,1,1,1,1);
 
@@ -118,11 +109,14 @@ VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final
 INSERT INTO Achievement 
 VALUES (111111,'Walked 1K');
 
-INSERT INTO Goals (PatientID, Goal, Assigned) 
-VALUES (111111,'Get Out Of Bed', 'FALSE');
+INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
+VALUES (111111,'Get Out Of Bed', 'FALSE', 'FALSE');
 
-INSERT INTO Goals (PatientID, Goal, Assigned) 
-VALUES (111111,'Have 3 Meals', 'FALSE');
+INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
+VALUES (111111,'Have 3 Meals', 'FALSE', 'FALSE');
+
+INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
+VALUES (111111,'Eat Breakfast', 'TRUE', 'FALSE');
 
 INSERT INTO Exercises
 VALUES ('Arm Curls','Arm','1','2');

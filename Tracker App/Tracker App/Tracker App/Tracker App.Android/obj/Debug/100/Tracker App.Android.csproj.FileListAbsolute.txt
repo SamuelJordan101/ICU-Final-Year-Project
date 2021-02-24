@@ -511,7 +511,6 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\xamarin\essentials\fileProvider.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\bin\packaged_resources
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\src\com\companyname\tracker_app\R.java
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\compressed_assemblies.arm64-v8a.s
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\compressed_assemblies.armeabi-v7a.s
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.Android\obj\Debug\100\android\compressed_assemblies.x86.s

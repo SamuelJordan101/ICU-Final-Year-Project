@@ -21,6 +21,16 @@ namespace Tracker_App
             InitializeComponent();
         }
 
+        public class patient
+        {
+            public int PatientId { get; set; }
+            public string Name { get; set; }
+            public DateTime Admission { get; set; }
+            public string Ward { get; set; }
+            public string Hospital { get; set; }
+            public int? GoalCpax { get; set; }
+        }
+
         async void Login_Button(object sender, System.EventArgs e)
         {
             
@@ -35,8 +45,8 @@ namespace Tracker_App
                     UserDialogs.Instance.ShowLoading("Logging In...");
                     try {
                         var URL = await SecureStorage.GetAsync("URL");
-                        dynamic d = await URL.AppendPathSegment("Patient").AppendPathSegment("Check").AppendPathSegment(ID).GetStringAsync();
-                        if (d == "[true]")
+                        List<patient> dataLogin = await URL.AppendPathSegment("Patient").AppendPathSegment("Check").AppendPathSegment(ID).GetJsonAsync<List<patient>>();
+                        if (dataLogin[0].PatientId == int.Parse(ID))
                         {
                             Preferences.Set("PID", ID);
                             UserDialogs.Instance.HideLoading();

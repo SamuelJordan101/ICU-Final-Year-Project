@@ -119,3 +119,7 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.Text.Encodings.Web.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\System.Text.Json.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhone\Debug\BTProgressHUD.pdb

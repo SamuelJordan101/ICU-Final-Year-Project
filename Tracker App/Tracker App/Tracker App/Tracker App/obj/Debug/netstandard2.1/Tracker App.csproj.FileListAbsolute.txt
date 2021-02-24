@@ -21,5 +21,5 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Mono.Android.dll
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Mono.Android.pdb
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\bin\Debug\netstandard2.1\Mono.Android.xml
-C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csprojAssemblyReference.cache
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csproj.CopyComplete
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App\obj\Debug\netstandard2.1\Tracker App.csprojAssemblyReference.cache
