@@ -22,7 +22,6 @@ namespace Tracker.API
         public virtual DbSet<Cpax> Cpaxes { get; set; }
         public virtual DbSet<Exercise> Exercises { get; set; }
         public virtual DbSet<ExercisePlan> ExercisePlans { get; set; }
-        public virtual DbSet<ExercisePlanSchedule> ExercisePlanSchedules { get; set; }
         public virtual DbSet<Goal> Goals { get; set; }
         public virtual DbSet<Image> Images { get; set; }
         public virtual DbSet<Patient> Patients { get; set; }
@@ -96,19 +95,6 @@ namespace Tracker.API
                 entity.Property(e => e.PatientId).HasColumnName("PatientID");
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
-
-            });
-
-            modelBuilder.Entity<ExercisePlanSchedule>(entity =>
-            {
-                entity.ToTable("ExercisePlanSchedule");
-
-                entity.HasIndex(e => e.Id, "UQ__Exercise__3214EC26F87BF09F")
-                    .IsUnique();
-
-                entity.Property(e => e.Id).HasColumnName("ID");
-
-                entity.Property(e => e.ExercisePlanId).HasColumnName("ExercisePlanID");
 
             });
 

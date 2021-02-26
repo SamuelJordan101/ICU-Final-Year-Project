@@ -85,7 +85,7 @@ CREATE TABLE ExercisePlan (
     ExerciseID INT NOT NULL,
     PatientID INT NOT NULL,
     StartDate DATETIME NOT NULL,
-    EndDate INT NOT NULL,
+    EndDate DATETIME NOT NULL,
     PRIMARY KEY (ID),
     FOREIGN KEY (ExerciseID) REFERENCES Exercises(ID),
     FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
