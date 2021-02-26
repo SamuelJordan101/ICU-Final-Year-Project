@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tracker_App.Exercise_Individual"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              BackgroundImageSource="Background.png"
              BackgroundColor="White">
     
@@ -25,10 +28,10 @@
                     </Frame>
 
                     <Frame CornerRadius="5" Margin="10,0,10,0">
-                        <StackLayout>
+                        <StackLayout x:Name="GifLayout">
                             <Label Text="Steps" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,0,0,10"></Label>
 
-                            <Image x:Name="Exercise_Gif" IsAnimationPlaying="True"></Image>
+                            <ff:CachedImage x:Name="Gif" Source="GifPlaceholder.gif" Aspect="AspectFit"/>
                         </StackLayout>
                     </Frame>
                 </StackLayout>

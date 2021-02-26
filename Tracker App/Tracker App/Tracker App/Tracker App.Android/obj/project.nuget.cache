@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CNgzFoLwQvD6SBuXg0+0LP86V90Se7J9r0DlfkHn/XlkiI+3n3jrRE+ibyeu9IGUOWdDgSQR4VB6TafG8AixKw==",
+  "dgSpecHash": "z4qz2Zj/blRXAovA1IgEfaB+v/B6g2DoWErfPYjsxbZAtucMZMpGquODBGnIBTWSfqcNdrxCeDDh+/Iy6Kz+uQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App.Android\\Tracker App.Android.csproj",
   "expectedPackageFiles": [
@@ -156,6 +156,11 @@
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.7\\xamarin.androidx.viewpager2.1.0.0.7.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.forms\\5.0.0.1931\\xamarin.forms.5.0.0.1931.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.google.android.material\\1.1.0.5\\xamarin.google.android.material.1.1.0.5.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"

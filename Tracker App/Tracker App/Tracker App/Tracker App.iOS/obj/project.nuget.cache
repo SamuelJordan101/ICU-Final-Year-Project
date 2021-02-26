@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dx3EHI3wgawB7wdQz3oyF+h/MnpuZvbB0ls1DhS0020l3gwN6YhthQ5yP4cvb2v+jDIjvi3vj5sy/HlXzd9Nag==",
+  "dgSpecHash": "27fxcoKiaN7nU5qERRvKgfXPlvQhvISpCv49DyKpYkSHaAp6t2q0K0GyBw86gA3953eAVYoMV7rlix4gZf6gDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App.iOS\\Tracker App.iOS.csproj",
   "expectedPackageFiles": [
@@ -112,7 +112,13 @@
     "C:\\Users\\Sam\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.forms\\5.0.0.1931\\xamarin.forms.5.0.0.1931.nupkg.sha512"
   ],
   "logs": [

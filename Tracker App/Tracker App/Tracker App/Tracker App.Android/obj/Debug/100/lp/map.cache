@@ -1,5 +1,10 @@
 Acr.UserDialogs
 AndHUD
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
+FFImageLoading.Svg.Forms
+FFImageLoading.Svg.Platform
+FFImageLoading.Transformations
 FormsViewGroup
 Microcharts.Droid
 SkiaSharp

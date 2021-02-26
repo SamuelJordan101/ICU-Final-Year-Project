@@ -16333,7 +16333,7 @@ namespace Tracker_App.Droid
 			public const int design_snackbar_background = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int Exercise_1 = 2131165294;
+			public const int GifPlaceholder = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
 			public const int ic_calendar_black_24dp = 2131165295;

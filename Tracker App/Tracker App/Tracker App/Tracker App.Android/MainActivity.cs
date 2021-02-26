@@ -22,6 +22,7 @@ namespace Tracker_App.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             UserDialogs.Init(this);
             LoadApplication(new App());
         }

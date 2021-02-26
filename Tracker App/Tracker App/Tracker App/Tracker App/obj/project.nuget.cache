@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j2RRA+AFpTSi6DJZBTLhT46sJCFbYZLJpchKEbXfUZ+eJxRtD/+yd8LwcnkOyItbP47Y3VG9AHjVjJT/JxH9Zg==",
+  "dgSpecHash": "5j6XAYjxFP2eichizilFupElUAHr/h3V3+NsamDBMHbgoC3L3KibYr89SytmCEarJ4W+WIvKjacW2ud3SA4G0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App\\Tracker App.csproj",
   "expectedPackageFiles": [
@@ -131,6 +131,11 @@
     "C:\\Users\\Sam\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []

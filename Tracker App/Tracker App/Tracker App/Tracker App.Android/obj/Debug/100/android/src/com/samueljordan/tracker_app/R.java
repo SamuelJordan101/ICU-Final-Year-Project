@@ -6294,7 +6294,7 @@ public final class R {
     public static final int design_ic_visibility_off=0x7f07006b;
     public static final int design_password_eye=0x7f07006c;
     public static final int design_snackbar_background=0x7f07006d;
-    public static final int exercise_1=0x7f07006e;
+    public static final int gifplaceholder=0x7f07006e;
     public static final int ic_calendar_black_24dp=0x7f07006f;
     public static final int ic_clear_black_24dp=0x7f070070;
     public static final int ic_edit_black_24dp=0x7f070071;

@@ -58,7 +58,8 @@ namespace Tracker_App
             List<image> ExerciseGif = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[0].Gif).GetJsonAsync<List<image>>();
 
             Exercise_Name.Text = ExerciseData[0].ExerciseName;
-            Exercise_Gif.Source = "Exercise_1.gif";
+            Gif.Source = ImageSource.FromStream(() => new MemoryStream(ExerciseGif[0].ImageData));
+            Gif.WidthRequest = GifLayout.Width - 50;
 
             for (var i = 0; i < Steps.Count; i++)
             {

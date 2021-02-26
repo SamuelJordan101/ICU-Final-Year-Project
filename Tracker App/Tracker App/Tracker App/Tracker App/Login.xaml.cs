@@ -60,6 +60,7 @@ namespace Tracker_App
                         }
                     } catch
                     {
+                        UserDialogs.Instance.HideLoading();
                         await DisplayAlert("Error", "Please Try Again!", "OK");
                     }
                 }
