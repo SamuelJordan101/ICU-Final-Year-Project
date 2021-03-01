@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Tracker_App
 {
@@ -34,9 +35,15 @@ namespace Tracker_App
         {
             Navigation.PushModalAsync(new Tracker_App.Progress());
         }
-        void Settings_Button(object sender, System.EventArgs e)
+        async void Logout_Button(object sender, System.EventArgs e)
         {
-            Navigation.PushModalAsync(new Tracker_App.Settings());
+            bool response = await DisplayAlert("Log Out", "Are you sure you want to log out?", "Yes", "No");
+
+            if (response == true)
+            {
+                Preferences.Remove("PID");
+                await Navigation.PushModalAsync(new Login());
+            }
         }
     }
 }

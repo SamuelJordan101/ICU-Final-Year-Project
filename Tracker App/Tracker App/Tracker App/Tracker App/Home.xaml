@@ -17,7 +17,7 @@
                     <Button x:Name="GoalsButton" Text="Goals" BackgroundColor="Pink" Clicked="Goals_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
                     <Button x:Name="ExercisesButton" Text="Exercises" BackgroundColor="Pink" Clicked="Exercises_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
                     <Button x:Name="ProgressButton" Text="Progress" BackgroundColor="Pink" Clicked="Progress_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
-                    <Button x:Name="SettingsButton" Text="Settings" BackgroundColor="Pink" Clicked="Settings_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="LogoutButton" Text="Log Out" TextColor="White" BackgroundColor="Red" Clicked="Logout_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

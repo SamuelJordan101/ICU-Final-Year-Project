@@ -235,6 +235,8 @@ namespace Tracker_App
             else
                 await DisplayAlert("Error", "Achievement is empty and has not added", "Okay!");
 
+            UserDialogs.Instance.HideLoading();
+
             Add_Achievement_Input.Text = "";
         }
 
