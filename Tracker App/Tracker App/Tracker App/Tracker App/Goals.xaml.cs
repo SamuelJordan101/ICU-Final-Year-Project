@@ -177,13 +177,16 @@ namespace Tracker_App
             int ID = int.Parse(Preferences.Get("PID", ""));
             var URL = await SecureStorage.GetAsync("URL");
 
-            await URL.AppendPathSegment("Goal").PostJsonAsync(new { PatientId = ID, Goal1 = Add_Goal_Input.Text, Assigned = false, Done = false });
+            if(Add_Goal_Input.Text != "")
+            {
+                await URL.AppendPathSegment("Goal").PostJsonAsync(new { PatientId = ID, Goal1 = Add_Goal_Input.Text, Assigned = false, Done = false });
+                await DisplayAlert("Done!", "Goal has been added!", "Okay!");
+                LoadInfo();
+            }
+            else
+                await DisplayAlert("Error", "Goal is empty and has not added", "Okay!");
 
             Add_Goal_Input.Text = "";
-
-            await DisplayAlert("Done!", "Goal has been added!", "Okay!");
-
-            LoadInfo();
         }
 
 

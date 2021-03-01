@@ -226,13 +226,16 @@ namespace Tracker_App
             int ID = int.Parse(Preferences.Get("PID", ""));
             var URL = await SecureStorage.GetAsync("URL");
 
-            await URL.AppendPathSegment("Achievement").PostJsonAsync(new { PatientID = ID, Achievement1 = Add_Achievement_Input.Text });
+            if (Add_Achievement_Input.Text != "")
+            {
+                await URL.AppendPathSegment("Achievement").PostJsonAsync(new { PatientID = ID, Achievement1 = Add_Achievement_Input.Text });
+                await DisplayAlert("Done!", "Achievement has been added!", "Okay!");
+                LoadInfo();
+            }
+            else
+                await DisplayAlert("Error", "Achievement is empty and has not added", "Okay!");
 
             Add_Achievement_Input.Text = "";
-
-            await DisplayAlert("Done!", "Achievement has been added!", "Okay!");
-
-            LoadInfo();
         }
 
     }
