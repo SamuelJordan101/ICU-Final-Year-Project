@@ -104,60 +104,55 @@ namespace Tracker_App
             else
                 length = 5;
 
-            int[,] CPAXScores = new int[5, 2];
+            decimal[] CPAXScores = new decimal[5];
+            string[] CPAXDates = new string[5];
+
+            for(var i = 0; i < 5; i++)
+                CPAXDates[i] = "";
 
             for(var i = 0; i < length; i++)
             {
-                CPAXScores[i, 0] = tempCpax[i].CPAXDate.Month;
-                CPAXScores[i, 1] = (tempCpax[i].Grip + tempCpax[i].Respiratory + tempCpax[i].Cough + tempCpax[i].BedMovement + tempCpax[i].DynamicSitting + tempCpax[i].StandingBalance + tempCpax[i].SitToStand +
-                    tempCpax[i].BedToChair + tempCpax[i].Stepping + tempCpax[i].Transfer) / 10;
+                int temp = (tempCpax[i].Grip + tempCpax[i].Respiratory + tempCpax[i].Cough + tempCpax[i].BedMovement + tempCpax[i].DynamicSitting + tempCpax[i].StandingBalance + tempCpax[i].SitToStand +
+                    tempCpax[i].BedToChair + tempCpax[i].Stepping + tempCpax[i].Transfer);
+                CPAXScores[i] = decimal.Divide(temp, 10);
+                CPAXDates[i] = (tempCpax[i].CPAXDate.Day.ToString() + "/" + tempCpax[i].CPAXDate.Month.ToString() + "/" + tempCpax[i].CPAXDate.Year.ToString());
             }
-
-            string[] Months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
-            string[] CPAXMonths = new string[5];
-
-
-            for (var i = 0; i < length; i++)
-                if (CPAXScores[i, 0] != 0)
-                    CPAXMonths[i] = Months[CPAXScores[i, 0]-1];
-                else
-                    CPAXMonths[i] = "";
 
             ChartEntry[] entries = new[]
             {
-                new ChartEntry(CPAXScores[0,1])
+                new ChartEntry((float)CPAXScores[0])
                 {
-                    Label = CPAXScores[0,0].ToString(),
-                    ValueLabel = CPAXMonths[0],
+                    Label = CPAXDates[0].ToString(),
+                    ValueLabel = CPAXScores[0].ToString(),
                     Color = SKColor.Parse("#ff0000")
                 },
-                new ChartEntry(CPAXScores[1,1])
+                new ChartEntry((float)CPAXScores[1])
                 {
-                    Label = CPAXScores[1,0].ToString(),
-                    ValueLabel = CPAXMonths[1],
-                    Color = SKColor.Parse("#ff0000")
+                    Label = CPAXDates[1].ToString(),
+                    ValueLabel = CPAXScores[1].ToString(),
+                    Color = SKColor.Parse("#ffa500")
                 },
-                new ChartEntry(CPAXScores[2,1])
+                new ChartEntry((float)CPAXScores[2])
                 {
-                    Label = CPAXScores[2,0].ToString(),
-                    ValueLabel = CPAXMonths[2],
-                    Color = SKColor.Parse("#ff0000")
+                    Label = CPAXDates[2].ToString(),
+                    ValueLabel = CPAXScores[2].ToString(),
+                    Color = SKColor.Parse("#00ff00")
                 },
-                new ChartEntry(CPAXScores[3,1])
+                new ChartEntry((float)CPAXScores[3])
                 {
-                    Label = CPAXScores[3,0].ToString(),
-                    ValueLabel = CPAXMonths[3],
-                    Color = SKColor.Parse("#ff0000")
+                    Label = CPAXDates[3].ToString(),
+                    ValueLabel = CPAXScores[3].ToString(),
+                    Color = SKColor.Parse("#00ffa5")
                 },
-                new ChartEntry(CPAXScores[4,1])
+                new ChartEntry((float)CPAXScores[4])
                 {
-                    Label = CPAXScores[4,0].ToString(),
-                    ValueLabel = CPAXMonths[4],
-                    Color = SKColor.Parse("#ff0000")
+                    Label = CPAXDates[4].ToString(),
+                    ValueLabel = CPAXScores[4].ToString(),
+                    Color = SKColor.Parse("#0000ff")
                 },
             };
 
-            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 34, MaxValue = 5, PointSize = 35, LineSize = 10, LabelColor = SKColor.Parse("#000000"), LabelOrientation = Orientation.Horizontal ,ValueLabelOrientation = Orientation.Horizontal, BackgroundColor = SKColors.Transparent };
+            CpaxChart.Chart = new LineChart { Entries = entries, LabelTextSize = 35, MaxValue = 5, PointSize = 35, LineSize = 10, LabelColor = SKColor.Parse("#000000"), LabelOrientation = Orientation.Horizontal, ValueLabelOrientation = Orientation.Horizontal, BackgroundColor = SKColors.Transparent };
             UserDialogs.Instance.HideLoading();
         }
 

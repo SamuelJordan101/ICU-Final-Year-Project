@@ -28,6 +28,7 @@ namespace Tracker_App
             public int PatientId { get; set; }
             public string Goal1 { get; set; }
             public bool Assigned { get; set; }
+            public DateTime? DueDate { get; set; }
             public bool? Done { get; set; }
         }
 
@@ -92,10 +93,10 @@ namespace Tracker_App
                     {
                         Text = HospitalData[i].Goal1,
                         FontSize = 20,
-                        VerticalOptions = LayoutOptions.Center
+                        VerticalOptions = LayoutOptions.Center,
                     };
 
-                    goalLabel.SetValue(Grid.RowProperty, i + 1);
+                    goalLabel.SetValue(Grid.RowProperty, (i * 2) + 1);
                     goalLabel.SetValue(Grid.ColumnProperty, 0);
 
                     var goalDone = new Button
@@ -104,14 +105,49 @@ namespace Tracker_App
                         BackgroundColor = Color.Lime,
                     };
 
-                    goalDone.SetValue(Grid.RowProperty, i + 1);
+                    goalDone.SetValue(Grid.RowProperty, (i * 2) + 1);
                     goalDone.SetValue(Grid.ColumnProperty, 1);
                     goalDone.Clicked += Done_Goal_Button;
                     goalDone.ClassId = HospitalData[i].Id.ToString();
                     goalDone.StyleId = "true";
 
+                    var goalDate = new Label
+                    {
+                        Text = "Due: " + (HospitalData[i].DueDate.Value.Day + "/" + HospitalData[i].DueDate.Value.Month + "/" + HospitalData[i].DueDate.Value.Year),
+                        FontSize = 20,
+                        HorizontalTextAlignment = TextAlignment.Center,
+                        VerticalTextAlignment = TextAlignment.Center,
+                    };
+
+                    DateTime currentDate = DateTime.Now;
+
+                    if (HospitalData[i].DueDate.Value.Year > currentDate.Year)
+                        goalDate.BackgroundColor = Color.Lime;
+                    else if (HospitalData[i].DueDate.Value.Year == currentDate.Year)
+                    {
+                        if (HospitalData[i].DueDate.Value.Month > currentDate.Month)
+                            goalDate.BackgroundColor = Color.Lime;
+                        else if (HospitalData[i].DueDate.Value.Month == currentDate.Month)
+                        {
+                            if (HospitalData[i].DueDate.Value.Day > currentDate.Day)
+                                goalDate.BackgroundColor = Color.Lime;
+                            else if (HospitalData[i].DueDate.Value.Day == currentDate.Day)
+                                goalDate.BackgroundColor = Color.Orange;
+                            else
+                                goalDate.BackgroundColor = Color.Red;
+                        }
+                        else
+                            goalDate.BackgroundColor = Color.Red;
+                    }
+                    else
+                        goalDate.BackgroundColor = Color.Red;
+
+                    goalDate.SetValue(Grid.RowProperty, (i*2) + 2);
+                    goalDate.SetValue(Grid.ColumnSpanProperty, 2);
+
                     Hospital_Goals.Children.Add(goalLabel);
                     Hospital_Goals.Children.Add(goalDone);
+                    Hospital_Goals.Children.Add(goalDate);
                 }
             }
             UserDialogs.Instance.HideLoading();
@@ -133,8 +169,10 @@ namespace Tracker_App
                 var children = Hospital_Goals.Children.ToList();
                 foreach (var child in children.Where(child => Grid.GetRow(child) == row))
                     Hospital_Goals.Children.Remove(child);
+                foreach (var child in children.Where(child => Grid.GetRow(child) == row + 1))
+                    Hospital_Goals.Children.Remove(child);
                 foreach (var child in children.Where(child => Grid.GetRow(child) > row))
-                    Grid.SetRow(child, Grid.GetRow(child) - 1);
+                    Grid.SetRow(child, Grid.GetRow(child) - 2);
             }
             else
             {

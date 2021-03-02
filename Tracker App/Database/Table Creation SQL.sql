@@ -75,6 +75,7 @@ CREATE TABLE Goals (
     PatientID INT NOT NULL,
     Goal TEXT NOT NULL,
     Assigned BIT NOT NULL,
+    DueDate DATE,
     Done BIT,
     PRIMARY KEY (ID),
     FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
@@ -115,8 +116,8 @@ VALUES (111111,'Get Out Of Bed', 'FALSE', 'FALSE');
 INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
 VALUES (111111,'Have 3 Meals', 'FALSE', 'FALSE');
 
-INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
-VALUES (111111,'Eat Breakfast', 'TRUE', 'FALSE');
+INSERT INTO Goals (PatientID, Goal, Assigned, DueDate, Done) 
+VALUES (111111,'Eat Breakfast', 'TRUE', '2021/03/20' ,'FALSE');
 
 INSERT INTO Exercises
 VALUES ('Arm Curls','Arm','1','2');
