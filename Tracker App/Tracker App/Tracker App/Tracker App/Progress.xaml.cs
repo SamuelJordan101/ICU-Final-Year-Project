@@ -116,7 +116,7 @@ namespace Tracker_App
                     tempCpax[i].BedToChair + tempCpax[i].Stepping + tempCpax[i].Transfer);
                 CPAXScores[i] = decimal.Divide(temp, 10);
                 CPAXDates[i] = (tempCpax[i].CPAXDate.Day.ToString() + "/" + tempCpax[i].CPAXDate.Month.ToString() + "/" + tempCpax[i].CPAXDate.Year.ToString());
-            }
+             }
 
             ChartEntry[] entries = new[]
             {
@@ -233,6 +233,12 @@ namespace Tracker_App
             UserDialogs.Instance.HideLoading();
 
             Add_Achievement_Input.Text = "";
+        }
+
+        async void CPAX_Info(object sender, System.EventArgs e)
+        {
+            await DisplayAlert("CPAX Information", "Your CPAX score is a measurement of your overall physical and respiratory functions. Your score gives" +
+                "you an overall representation of your fitness.", "Okay!");
         }
 
     }
