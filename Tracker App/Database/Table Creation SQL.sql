@@ -17,9 +17,9 @@ CREATE TABLE Image (
 CREATE TABLE Exercises (
     ID INT IDENTITY(1,1) NOT NULL UNIQUE,
     ExerciseName TEXT NOT NULL,
-    Category TEXT,
-    Image INT NOT NULL,
-    Gif INT NOT NULL,
+    ExerciseDescription TEXT NOT NULL,
+    Image INT,
+    Gif INT,
     PRIMARY KEY (ID),
     FOREIGN KEY (Image) REFERENCES Image(ID)
 );

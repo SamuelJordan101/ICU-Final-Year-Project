@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "27fxcoKiaN7nU5qERRvKgfXPlvQhvISpCv49DyKpYkSHaAp6t2q0K0GyBw86gA3953eAVYoMV7rlix4gZf6gDg==",
+  "dgSpecHash": "4ZfEcUIx1UCDqKMd58G6GSh8tW41i1ThpKBDQm7dJgJm2CaChMzPYi65NXXOGzZm0NGiHeX7SkPyQfF0eN5wfQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Documents\\GitHub\\ICU-Final-Year-Project\\Tracker App\\Tracker App\\Tracker App\\Tracker App.iOS\\Tracker App.iOS.csproj",
   "expectedPackageFiles": [
@@ -119,21 +119,7 @@
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.forms\\5.0.0.1931\\xamarin.forms.5.0.0.1931.nupkg.sha512"
+    "C:\\Users\\Sam\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2012 to 5.0.0.1931. Reference the package directly from the project to select a different version. \r\n Tracker App.iOS -> Tracker App -> Xamarin.Forms (>= 5.0.0.2012) \r\n Tracker App.iOS -> Xamarin.Forms (>= 5.0.0.1931)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  "logs": []
 }

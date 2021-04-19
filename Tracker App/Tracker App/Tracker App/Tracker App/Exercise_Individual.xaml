@@ -13,18 +13,10 @@
             <ScrollView>
                 <StackLayout x:Name="StepLayout">
                     <Frame BackgroundColor="LightBlue">
-                        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="0.55*"></ColumnDefinition>
-                                <ColumnDefinition Width="0.45*"></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-
-                            <Label x:Name="Exercise_Name" Grid.ColumnSpan="2" TextColor="Black"  HorizontalOptions="Center" FontSize="35" FontAttributes="Bold" Padding="0,0,0,10"></Label>
-                        </Grid>
+                        <StackLayout>
+                            <Label x:Name="Exercise_Name" TextColor="Black"  HorizontalOptions="Center" FontSize="35" FontAttributes="Bold" Padding="0,0,0,10"></Label>
+                            <Label x:Name="Exercise_Description" TextColor="Black" FontSize="20"></Label>
+                        </StackLayout>
                     </Frame>
 
                     <Frame CornerRadius="5" Margin="10,0,10,0">

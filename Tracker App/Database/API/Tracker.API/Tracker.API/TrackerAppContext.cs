@@ -73,7 +73,7 @@ namespace Tracker.API
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 
-                entity.Property(e => e.Category).HasColumnType("text");
+                entity.Property(e => e.ExerciseDescription).HasColumnType("text");
 
                 entity.Property(e => e.ExerciseName)
                     .IsRequired()
