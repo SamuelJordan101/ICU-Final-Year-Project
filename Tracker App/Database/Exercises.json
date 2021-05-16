@@ -1,0 +1,322 @@
+{
+	"Exercises":[
+		{
+			"ExerciseName":"Bending the knee in sitting",
+			"ExerciseDescription":"To improve your ability to bend your knee in preparation for standing.",
+			"Image":"4",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Bending the wrist to a target",
+			"ExerciseDescription":"To improve your ability to straighten your wrist.",
+			"Image":"5",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Abducting the thumb to a target",
+			"ExerciseDescription":"To improve your ability to open your thumb to help pick up a cup or glass.",
+			"Image":"6",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Elbow strengthening in lying",
+			"ExerciseDescription":"To strengthen the muscles that straighten your elbow",
+			"Image":"7",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Elbow bending and straightening",
+			"ExerciseDescription":"To improve your ability to bend and straighten your elbow.",
+			"Image":"8",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Finger strenthening",
+			"ExerciseDescription":"To strengthen the muscles that straighten your fingers.",
+			"Image":"9",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Forearm movements ",
+			"ExerciseDescription":"To improve your ability to turn your palm up and down.",
+			"Image":"10",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hand behind back",
+			"ExerciseDescription":"To stretch or maintain range in your shoulders.",
+			"Image":"11",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Hand behind head",
+			"ExerciseDescription":"To stretch or maintain range in your shoulders.",
+			"Image":"12",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Full fist strengthening with putty or stress ball",
+			"ExerciseDescription":"To strengthen your hand grip.",
+			"Image":"13",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hand webspace stretch ",
+			"ExerciseDescription":"To stretch or maintain range in your hand.",
+			"Image":"14",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Opposition of thumb to index finger",
+			"ExerciseDescription":"To improve your ability to manipulate objects with your hand.",
+			"Image":"15",
+			"Gif":"2"
+		},		
+		{
+			"ExerciseName":"Thumb abduction",
+			"ExerciseDescription":"To improve your ability to open your thumb.",
+			"Image":"16",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Pouring water from one cup to another",
+			"ExerciseDescription":"To improve your ability to manipulate objects with your hand.",
+			"Image":"17",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Taking a cup to the mouth",
+			"ExerciseDescription":"To improve your ability to bring a cup to your mouth.",
+			"Image":"18",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Pressing numbers on a phone",
+			"ExerciseDescription":"To improve your ability to manipulate objects with your hand.",
+			"Image":"19",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Wrist flexion and extension",
+			"ExerciseDescription":"To improve your ability to bend and straighten your wrist.",
+			"Image":"20",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Using a pen",
+			"ExerciseDescription":"To improve your ability to write.",
+			"Image":"21",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Reaching forward to an object",
+			"ExerciseDescription":"To improve your ability to pick up an object.",
+			"Image":"22",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Shoulder retractor strengthening in sitting",
+			"ExerciseDescription":"To strengthen the muscles at the back of your shoulder.",
+			"Image":"23",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Neck lateral flexor stretch",
+			"ExerciseDescription":"To stretch or maintain length in the muscles at the side of your neck.",
+			"Image":"24",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Neck flexor/extensor stretch",
+			"ExerciseDescription":"To stretch or maintain range of your neck.",
+			"Image":"25",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Head rotation",
+			"ExerciseDescription":"To improve your head rotation.",
+			"Image":"26",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip abductor/adductor strengthening in supine",
+			"ExerciseDescription":"To strengthen the muscles at the side and on the inside of your hip.",
+			"Image":"27",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip abduction in sidelying",
+			"ExerciseDescription":"To strengthen the muscles at the side of your hip.",
+			"Image":"28",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip flexor strengthening in sitting",
+			"ExerciseDescription":"To strengthen the muscles at the front of your hip.",
+			"Image":"29",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Inner range quads over a roll",
+			"ExerciseDescription":"To strengthen the thigh muscles.",
+			"Image":"30",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Knee extension in sitting",
+			"ExerciseDescription":"To strengthen your thigh muscles.",
+			"Image":"31",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Straight leg raise",
+			"ExerciseDescription":"To strengthen the muscles at the front of your hip and knee.",
+			"Image":"32",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Static quads",
+			"ExerciseDescription":"To strengthen the thigh muscles.",
+			"Image":"33",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip and knee flexion in supine",
+			"ExerciseDescription":"To increase movement of the hip and knee.",
+			"Image":"34",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip flexor strengthening in supine",
+			"ExerciseDescription":"To strengthen the muscles at the front of your hip.",
+			"Image":"35",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Moving across the bed",
+			"ExerciseDescription":"To improve your ability to move in bed.",
+			"Image":"36",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Bridging ",
+			"ExerciseDescription":"To strengthen the muscles at the back of your hip.",
+			"Image":"37",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Heel raises",
+			"ExerciseDescription":"To strengthen your calf muscles.",
+			"Image":"38",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Squat in standing",
+			"ExerciseDescription":"To strengthen the muscles that straighten your leg.",
+			"Image":"39",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Marching on the spot",
+			"ExerciseDescription":"To improve your ability to walk.",
+			"Image":"40",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Sit to stand",
+			"ExerciseDescription":"To improve your ability to stand up or sit down.",
+			"Image":"41",
+			"Gif":"2"
+		},	
+		{
+			"ExerciseName":"Ankle plantarflexor stretch using a pillow",
+			"ExerciseDescription":"To stretch or maintain range in your ankle.",
+			"Image":"42",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Passive shoulder flexion",
+			"ExerciseDescription":"To stretch or maintain range of the shoulder joint.",
+			"Image":"43",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Passive shoulder abduction",
+			"ExerciseDescription":"To stretch or maintain range of the shoulder joint.",
+			"Image":"44",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Passive wrist flexion and extension",
+			"ExerciseDescription":"To stretch or maintain range of the wrist joint.",
+			"Image":"45",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Passive finger and hand movements",
+			"ExerciseDescription":"To stretch or maintain range of the finger, hand and wrist joints.",
+			"Image":"46",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Upper limb passive movements",
+			"ExerciseDescription":"To stretch or maintain length of the upper limb muscles.",
+			"Image":"47",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Assisted ankle plantarflexor stretch",
+			"ExerciseDescription":"To induce transient increases in the extensibility of the muscles at the back of your ankle.",
+			"Image":"48",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Elbow extensor strengthening in sitting using theraband",
+			"ExerciseDescription":"To strengthen your triceps.",
+			"Image":"49",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Elbow extensor strengthening in supine using theraband",
+			"ExerciseDescription":"To strengthen your triceps.",
+			"Image":"50",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Elbow flexor strengthening in sitting using theraband",
+			"ExerciseDescription":"To strengthen your biceps.",
+			"Image":"51",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Elbow flexor strengthening in supine using theraband",
+			"ExerciseDescription":"To strengthen your biceps.",
+			"Image":"52",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Hip abduction in sitting with theraband",
+			"ExerciseDescription":"To strengthen your hip muscles",
+			"Image":"53",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Knee extension with Theraband",
+			"ExerciseDescription":"To strengthen your thigh muscles.",
+			"Image":"54",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Knee extensor strengthening in sitting using theraband",
+			"ExerciseDescription":"To strengthen the muscles at the front of your thigh.",
+			"Image":"55",
+			"Gif":"2"
+		},
+		{
+			"ExerciseName":"Shoulder rotator strengthening sitting using theraband",
+			"ExerciseDescription":"To strengthen your shoulder muscles.",
+			"Image":"56",
+			"Gif":"2"
+		}
+	]
+}

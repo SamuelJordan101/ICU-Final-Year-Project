@@ -30,7 +30,7 @@ namespace Tracker_App
 
         async void URL()
         {
-            await SecureStorage.SetAsync("URL", "http://10.0.2.2/Tracker.API/");
+            await SecureStorage.SetAsync("URL", "http://192.168.0.20/Tracker.API/");
         }
     }
 }

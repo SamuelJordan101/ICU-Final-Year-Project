@@ -8,6 +8,13 @@ public class MonoPackageManager_Resources {
 		"BouncyCastle.Crypto.dll",
 		"EntityFramework.dll",
 		"EntityFramework.SqlServer.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Svg.Forms.dll",
+		"FFImageLoading.Svg.Platform.dll",
+		"FFImageLoading.Transformations.dll",
 		"Flurl.dll",
 		"Flurl.Http.dll",
 		"FormsViewGroup.dll",
@@ -53,6 +60,7 @@ public class MonoPackageManager_Resources {
 		"Ubiety.Dns.Core.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
+		"Xamarin.AndroidX.Annotation.Experimental.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
 		"Xamarin.AndroidX.AppCompat.dll",
 		"Xamarin.AndroidX.Arch.Core.Common.dll",
@@ -104,5 +112,4 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
-	public static String ApiPackageName = null;
 }

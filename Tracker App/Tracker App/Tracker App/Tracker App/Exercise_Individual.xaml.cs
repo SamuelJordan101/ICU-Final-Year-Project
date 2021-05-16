@@ -51,8 +51,10 @@ namespace Tracker_App
             UserDialogs.Instance.ShowLoading("Loading Steps...");
             var Exercise = Preferences.Get("Exercise",1);
             var URL = await SecureStorage.GetAsync("URL");
+            List<step> Steps = new List<step>();
 
-            List<step> Steps = await URL.AppendPathSegment("Step").AppendPathSegment(Exercise).GetJsonAsync<List<step>>();
+
+            try { Steps = await URL.AppendPathSegment("Step").AppendPathSegment(Exercise).GetJsonAsync<List<step>>(); } catch { }
             List<exercise> ExerciseData = await URL.AppendPathSegment("Exercise").AppendPathSegment(Exercise).GetJsonAsync<List<exercise>>();
             List<image> ExerciseImage = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[0].Image).GetJsonAsync<List<image>>();
             List<image> ExerciseGif = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[0].Gif).GetJsonAsync<List<image>>();

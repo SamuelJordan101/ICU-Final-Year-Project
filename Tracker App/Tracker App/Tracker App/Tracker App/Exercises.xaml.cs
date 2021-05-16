@@ -48,9 +48,9 @@ namespace Tracker_App
 
             List<exercise> ExerciseData = await URL.AppendPathSegment("Exercise").GetJsonAsync<List<exercise>>();
 
-            for(var i = 0; i < ExerciseData.Count; i++)
+            for (var i = 0; i < ExerciseData.Count; i++)
             {
-                List<image> Image = await URL.AppendPathSegment("Image").AppendPathSegment(i).GetJsonAsync<List<image>>();
+                List<image> Image = await URL.AppendPathSegment("Image").AppendPathSegment("Exercise").AppendPathSegment(ExerciseData[i].Image).GetJsonAsync<List<image>>();
 
                 var ExerciseGrid = new Grid
                 {
@@ -82,13 +82,17 @@ namespace Tracker_App
                     Aspect = Aspect.AspectFit
                 };
 
-                ExerciseImage.Source = ImageSource.FromStream(() => new MemoryStream(Image[i].ImageData));
+                try {
+                    Image[0].ImageData = Convert.FromBase64String(System.Text.Encoding.UTF8.GetString(Image[0].ImageData));
+                }
+                catch { }
+                ExerciseImage.Source = ImageSource.FromStream(() => new MemoryStream(Image[0].ImageData));
                 ExerciseImage.SetValue(Grid.ColumnProperty, 1);
 
                 var ExerciseButton = new Button
                 {
                     Text = "View",
-                    BackgroundColor = Color.Pink,
+                    BackgroundColor = Color.DeepSkyBlue,
                     VerticalOptions = LayoutOptions.Fill
                 };
 

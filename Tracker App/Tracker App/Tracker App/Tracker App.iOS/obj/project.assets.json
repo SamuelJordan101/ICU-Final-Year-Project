@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Acr.UserDialogs/7.1.0.475": {
+      "Acr.UserDialogs/7.1.0.514": {
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "1.3.1"
@@ -62,7 +62,7 @@
           "buildTransitive/EntityFramework.targets": {}
         }
       },
-      "Flurl/3.0.1": {
+      "Flurl/3.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flurl.dll": {}
@@ -71,10 +71,10 @@
           "lib/netstandard2.0/Flurl.dll": {}
         }
       },
-      "Flurl.Http/3.0.1": {
+      "Flurl.Http/3.2.0": {
         "type": "package",
         "dependencies": {
-          "Flurl": "3.0.1",
+          "Flurl": "3.0.2",
           "Newtonsoft.Json": "12.0.2",
           "System.Text.Encoding.CodePages": "4.5.1"
         },
@@ -1217,7 +1217,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encodings.Web/5.0.0": {
+      "System.Text.Encodings.Web/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
@@ -1226,13 +1226,13 @@
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/5.0.1": {
+      "System.Text.Json/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
-          "System.Text.Encodings.Web": "5.0.0"
+          "System.Text.Encodings.Web": "5.0.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Text.Json.dll": {}
@@ -1560,16 +1560,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "Acr.UserDialogs": "7.1.0.475",
+          "Acr.UserDialogs": "7.1.0.514",
           "EntityFramework": "6.4.4",
-          "Flurl.Http": "3.0.1",
+          "Flurl.Http": "3.2.0",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
-          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore": "5.0.6",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
-          "MySqlConnector": "1.2.1",
+          "MySqlConnector": "1.3.8",
           "System.Collections": "4.3.0",
-          "System.Text.Json": "5.0.1",
+          "System.Text.Json": "5.0.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -1585,7 +1585,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Acr.UserDialogs/7.1.0.475": {
+      "Acr.UserDialogs/7.1.0.514": {
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "1.3.1"
@@ -1645,7 +1645,7 @@
           "buildTransitive/EntityFramework.targets": {}
         }
       },
-      "Flurl/3.0.1": {
+      "Flurl/3.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flurl.dll": {}
@@ -1654,10 +1654,10 @@
           "lib/netstandard2.0/Flurl.dll": {}
         }
       },
-      "Flurl.Http/3.0.1": {
+      "Flurl.Http/3.2.0": {
         "type": "package",
         "dependencies": {
-          "Flurl": "3.0.1",
+          "Flurl": "3.0.2",
           "Newtonsoft.Json": "12.0.2",
           "System.Text.Encoding.CodePages": "4.5.1"
         },
@@ -2674,7 +2674,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encodings.Web/5.0.0": {
+      "System.Text.Encodings.Web/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
@@ -2683,13 +2683,13 @@
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/5.0.1": {
+      "System.Text.Json/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
-          "System.Text.Encodings.Web": "5.0.0"
+          "System.Text.Encodings.Web": "5.0.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Text.Json.dll": {}
@@ -3017,16 +3017,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "Acr.UserDialogs": "7.1.0.475",
+          "Acr.UserDialogs": "7.1.0.514",
           "EntityFramework": "6.4.4",
-          "Flurl.Http": "3.0.1",
+          "Flurl.Http": "3.2.0",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
-          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore": "5.0.6",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
-          "MySqlConnector": "1.2.1",
+          "MySqlConnector": "1.3.8",
           "System.Collections": "4.3.0",
-          "System.Text.Json": "5.0.1",
+          "System.Text.Json": "5.0.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -3042,7 +3042,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Acr.UserDialogs/7.1.0.475": {
+      "Acr.UserDialogs/7.1.0.514": {
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "1.3.1"
@@ -3102,7 +3102,7 @@
           "buildTransitive/EntityFramework.targets": {}
         }
       },
-      "Flurl/3.0.1": {
+      "Flurl/3.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flurl.dll": {}
@@ -3111,10 +3111,10 @@
           "lib/netstandard2.0/Flurl.dll": {}
         }
       },
-      "Flurl.Http/3.0.1": {
+      "Flurl.Http/3.2.0": {
         "type": "package",
         "dependencies": {
-          "Flurl": "3.0.1",
+          "Flurl": "3.0.2",
           "Newtonsoft.Json": "12.0.2",
           "System.Text.Encoding.CodePages": "4.5.1"
         },
@@ -4134,7 +4134,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encodings.Web/5.0.0": {
+      "System.Text.Encodings.Web/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
@@ -4143,13 +4143,13 @@
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/5.0.1": {
+      "System.Text.Json/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
-          "System.Text.Encodings.Web": "5.0.0"
+          "System.Text.Encodings.Web": "5.0.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Text.Json.dll": {}
@@ -4477,16 +4477,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "Acr.UserDialogs": "7.1.0.475",
+          "Acr.UserDialogs": "7.1.0.514",
           "EntityFramework": "6.4.4",
-          "Flurl.Http": "3.0.1",
+          "Flurl.Http": "3.2.0",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
-          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore": "5.0.6",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
-          "MySqlConnector": "1.2.1",
+          "MySqlConnector": "1.3.8",
           "System.Collections": "4.3.0",
-          "System.Text.Json": "5.0.1",
+          "System.Text.Json": "5.0.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -4502,7 +4502,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Acr.UserDialogs/7.1.0.475": {
+      "Acr.UserDialogs/7.1.0.514": {
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "1.3.1"
@@ -4562,7 +4562,7 @@
           "buildTransitive/EntityFramework.targets": {}
         }
       },
-      "Flurl/3.0.1": {
+      "Flurl/3.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flurl.dll": {}
@@ -4571,10 +4571,10 @@
           "lib/netstandard2.0/Flurl.dll": {}
         }
       },
-      "Flurl.Http/3.0.1": {
+      "Flurl.Http/3.2.0": {
         "type": "package",
         "dependencies": {
-          "Flurl": "3.0.1",
+          "Flurl": "3.0.2",
           "Newtonsoft.Json": "12.0.2",
           "System.Text.Encoding.CodePages": "4.5.1"
         },
@@ -5594,7 +5594,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encodings.Web/5.0.0": {
+      "System.Text.Encodings.Web/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
@@ -5603,13 +5603,13 @@
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/5.0.1": {
+      "System.Text.Json/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
-          "System.Text.Encodings.Web": "5.0.0"
+          "System.Text.Encodings.Web": "5.0.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Text.Json.dll": {}
@@ -5937,16 +5937,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "Acr.UserDialogs": "7.1.0.475",
+          "Acr.UserDialogs": "7.1.0.514",
           "EntityFramework": "6.4.4",
-          "Flurl.Http": "3.0.1",
+          "Flurl.Http": "3.2.0",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
-          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore": "5.0.6",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
-          "MySqlConnector": "1.2.1",
+          "MySqlConnector": "1.3.8",
           "System.Collections": "4.3.0",
-          "System.Text.Json": "5.0.1",
+          "System.Text.Json": "5.0.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -5963,14 +5963,14 @@
     }
   },
   "libraries": {
-    "Acr.UserDialogs/7.1.0.475": {
-      "sha512": "iGW0uda9bmbGcPABm0UzDjSd5DtGwcTCkOg265aUxKhG9IW0HtoNA3gASMXK64hMye2A+9mfkcmWJDOudbhJWw==",
+    "Acr.UserDialogs/7.1.0.514": {
+      "sha512": "jSjxoOtwS4qHXRpRJxt5anCwRxga+RK22N0w/hR4wLwmxfVBv7eVHX+BsMYFF/Qe6SJGO5dJDcIyh/7+gbEkCA==",
       "type": "package",
-      "path": "acr.userdialogs/7.1.0.475",
+      "path": "acr.userdialogs/7.1.0.514",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "acr.userdialogs.7.1.0.475.nupkg.sha512",
+        "acr.userdialogs.7.1.0.514.nupkg.sha512",
         "acr.userdialogs.nuspec",
         "lib/monoandroid10.0/Acr.UserDialogs.dll",
         "lib/monoandroid10.0/Acr.UserDialogs.pdb",
@@ -6098,37 +6098,43 @@
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
       ]
     },
-    "Flurl/3.0.1": {
-      "sha512": "i7CuPSikVroBaWG8sPvO707Ex9C6BP5+r4JufKNU1FGMmiFgLJvNo1ttUg6ZiXIzUNknvIb1VUTIO9iEDucibg==",
+    "Flurl/3.0.2": {
+      "sha512": "1/6mqdzGCTdAekbWkVZBTylCV+8g3JUSTXRBngRVR274S+RsAYNRF79GbDoDsPfMKu8VPc9HkQWdBEAncK1PQQ==",
       "type": "package",
-      "path": "flurl/3.0.1",
+      "path": "flurl/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "flurl.3.0.1.nupkg.sha512",
+        "flurl.3.0.2.nupkg.sha512",
         "flurl.nuspec",
         "icon.png",
         "lib/net461/Flurl.dll",
         "lib/net461/Flurl.pdb",
         "lib/net461/Flurl.xml",
+        "lib/net472/Flurl.dll",
+        "lib/net472/Flurl.pdb",
+        "lib/net472/Flurl.xml",
         "lib/netstandard2.0/Flurl.dll",
         "lib/netstandard2.0/Flurl.pdb",
         "lib/netstandard2.0/Flurl.xml"
       ]
     },
-    "Flurl.Http/3.0.1": {
-      "sha512": "wt4RrmYOPWu8v0sjuuSfhYBFzjfrCz4nJP48Kw2HFGssq0U6pMBPFHcL3zbsBFALJipAjgRET5mf+0Xz4ZnZpQ==",
+    "Flurl.Http/3.2.0": {
+      "sha512": "5S8YiJm5CyRFO418GG9PDrsgmGEaZJtZLUqk3xqBKrfx7W9eKtOSpeji/GwAL+tSgNTALKBPvBKTaT4S83Oo+w==",
       "type": "package",
-      "path": "flurl.http/3.0.1",
+      "path": "flurl.http/3.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "flurl.http.3.0.1.nupkg.sha512",
+        "flurl.http.3.2.0.nupkg.sha512",
         "flurl.http.nuspec",
         "icon.png",
         "lib/net461/Flurl.Http.dll",
         "lib/net461/Flurl.Http.pdb",
         "lib/net461/Flurl.xml",
+        "lib/net472/Flurl.Http.dll",
+        "lib/net472/Flurl.Http.pdb",
+        "lib/net472/Flurl.xml",
         "lib/netstandard2.0/Flurl.Http.dll",
         "lib/netstandard2.0/Flurl.Http.pdb",
         "lib/netstandard2.0/Flurl.xml"
@@ -9915,10 +9921,10 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
-    "System.Text.Encodings.Web/5.0.0": {
-      "sha512": "EEslUvHKll1ftizbn20mX3Ix/l4Ygk/bdJ2LY6/X6FlGaP0RIhKMo9nS6JIGnKKT6KBP2PGj6JC3B9/ZF6ErqQ==",
+    "System.Text.Encodings.Web/5.0.1": {
+      "sha512": "KmJ+CJXizDofbq6mpqDoRRLcxgOd2z9X3XoFNULSbvbqVRZkFX3istvr+MUjL6Zw1RT+RNdoI4GYidIINtgvqQ==",
       "type": "package",
-      "path": "system.text.encodings.web/5.0.0",
+      "path": "system.text.encodings.web/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9935,16 +9941,16 @@
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.1/System.Text.Encodings.Web.dll",
         "lib/netstandard2.1/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.5.0.0.nupkg.sha512",
+        "system.text.encodings.web.5.0.1.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Text.Json/5.0.1": {
-      "sha512": "/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+    "System.Text.Json/5.0.2": {
+      "sha512": "I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
       "type": "package",
-      "path": "system.text.json/5.0.1",
+      "path": "system.text.json/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9957,7 +9963,7 @@
         "lib/netcoreapp3.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.5.0.1.nupkg.sha512",
+        "system.text.json.5.0.2.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -11092,7 +11098,8 @@
   },
   "packageFolders": {
     "C:\\Users\\Sam\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -11105,10 +11112,12 @@
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -11192,5 +11201,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 5.0.6 to 5.0.3. Reference the package directly from the project to select a different version. \r\n Tracker App.iOS -> Tracker App -> Microsoft.EntityFrameworkCore (>= 5.0.6) \r\n Tracker App.iOS -> Microsoft.EntityFrameworkCore (>= 5.0.3)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: MySqlConnector from 1.3.8 to 1.2.1. Reference the package directly from the project to select a different version. \r\n Tracker App.iOS -> Tracker App -> MySqlConnector (>= 1.3.8) \r\n Tracker App.iOS -> MySqlConnector (>= 1.2.1)",
+      "libraryId": "MySqlConnector",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

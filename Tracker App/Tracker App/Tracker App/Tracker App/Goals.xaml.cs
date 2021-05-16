@@ -57,7 +57,7 @@ namespace Tracker_App
                     var goalDone = new Button
                     {
                         Text = "Done",
-                        BackgroundColor = Color.Lime,
+                        BackgroundColor = Color.DeepSkyBlue,
                     };
 
                     goalDone.SetValue(Grid.RowProperty, i + 2);
@@ -102,7 +102,7 @@ namespace Tracker_App
                     var goalDone = new Button
                     {
                         Text = "Done",
-                        BackgroundColor = Color.Lime,
+                        BackgroundColor = Color.DeepSkyBlue,
                     };
 
                     goalDone.SetValue(Grid.RowProperty, (i * 2) + 1);

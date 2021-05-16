@@ -13,11 +13,11 @@
 
             <ScrollView>
                 <StackLayout Padding="20,0,20,0">
-                    <Button x:Name="InformationButton" Text="Information" BackgroundColor="Pink" Clicked="Information_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
-                    <Button x:Name="GoalsButton" Text="Goals" BackgroundColor="Pink" Clicked="Goals_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
-                    <Button x:Name="ExercisesButton" Text="Exercises" BackgroundColor="Pink" Clicked="Exercises_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
-                    <Button x:Name="ProgressButton" Text="Progress" BackgroundColor="Pink" Clicked="Progress_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
-                    <Button x:Name="LogoutButton" Text="Log Out" TextColor="White" BackgroundColor="Red" Clicked="Logout_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="InformationButton" Text="Information" BackgroundColor="DeepSkyBlue" Clicked="Information_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="GoalsButton" Text="Goals" BackgroundColor="DeepSkyBlue" Clicked="Goals_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="ExercisesButton" Text="Exercises" BackgroundColor="DeepSkyBlue" Clicked="Exercises_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="ProgressButton" Text="Progress" BackgroundColor="DeepSkyBlue" Clicked="Progress_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
+                    <Button x:Name="LogoutButton" Text="Log Out" BackgroundColor="Red" Clicked="Logout_Button" FontSize="35" TextTransform="None" Padding="20,20,20,20"></Button>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

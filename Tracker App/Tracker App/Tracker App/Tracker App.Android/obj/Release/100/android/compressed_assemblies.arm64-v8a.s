@@ -8,7 +8,7 @@
 .L.compressed_assembly_descriptors:
 	/* 0: Acr.UserDialogs.dll */
 	/* uncompressed_file_size */
-	.word	200704
+	.word	200192
 	/* loaded */
 	.byte	0
 	/* data */
@@ -51,628 +51,628 @@
 	.zero	3
 	.xword	compressed_assembly_data_4
 
-	/* 5: Flurl.Http.dll */
+	/* 5: FFImageLoading.Forms.Platform.dll */
 	/* uncompressed_file_size */
-	.word	105984
+	.word	30208
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_5
 
-	/* 6: Flurl.dll */
+	/* 6: FFImageLoading.Forms.dll */
 	/* uncompressed_file_size */
-	.word	36352
+	.word	33792
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_6
 
-	/* 7: FormsViewGroup.dll */
+	/* 7: FFImageLoading.Platform.dll */
 	/* uncompressed_file_size */
-	.word	27016
+	.word	91136
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_7
 
-	/* 8: Google.Protobuf.dll */
+	/* 8: FFImageLoading.Svg.Forms.dll */
 	/* uncompressed_file_size */
-	.word	363504
+	.word	10240
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_8
 
-	/* 9: Java.Interop.dll */
+	/* 9: FFImageLoading.Svg.Platform.dll */
 	/* uncompressed_file_size */
-	.word	207752
+	.word	63488
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_9
 
-	/* 10: K4os.Compression.LZ4.Streams.dll */
+	/* 10: FFImageLoading.Transformations.dll */
 	/* uncompressed_file_size */
-	.word	17408
+	.word	24576
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_10
 
-	/* 11: K4os.Compression.LZ4.dll */
+	/* 11: FFImageLoading.dll */
 	/* uncompressed_file_size */
-	.word	40448
+	.word	186880
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_11
 
-	/* 12: K4os.Hash.xxHash.dll */
+	/* 12: Flurl.Http.dll */
 	/* uncompressed_file_size */
-	.word	12288
+	.word	107008
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_12
 
-	/* 13: Microcharts.Droid.dll */
+	/* 13: Flurl.dll */
 	/* uncompressed_file_size */
-	.word	7168
+	.word	37376
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_13
 
-	/* 14: Microcharts.Forms.dll */
+	/* 14: FormsViewGroup.dll */
 	/* uncompressed_file_size */
-	.word	6144
+	.word	27024
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_14
 
-	/* 15: Microcharts.dll */
+	/* 15: Google.Protobuf.dll */
 	/* uncompressed_file_size */
-	.word	40448
+	.word	363504
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_15
 
-	/* 16: Microsoft.Bcl.AsyncInterfaces.dll */
+	/* 16: Java.Interop.dll */
 	/* uncompressed_file_size */
-	.word	14720
+	.word	208264
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_16
 
-	/* 17: Microsoft.CSharp.dll */
+	/* 17: K4os.Compression.LZ4.Streams.dll */
 	/* uncompressed_file_size */
-	.word	310664
+	.word	17408
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_17
 
-	/* 18: Microsoft.EntityFrameworkCore.Abstractions.dll */
+	/* 18: K4os.Compression.LZ4.dll */
 	/* uncompressed_file_size */
-	.word	28544
+	.word	40448
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_18
 
-	/* 19: Microsoft.EntityFrameworkCore.Relational.dll */
+	/* 19: K4os.Hash.xxHash.dll */
 	/* uncompressed_file_size */
-	.word	1255816
+	.word	12288
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_19
 
-	/* 20: Microsoft.EntityFrameworkCore.dll */
+	/* 20: Microcharts.Droid.dll */
 	/* uncompressed_file_size */
-	.word	1827720
+	.word	7168
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_20
 
-	/* 21: Microsoft.Extensions.Caching.Abstractions.dll */
+	/* 21: Microcharts.Forms.dll */
 	/* uncompressed_file_size */
-	.word	26504
+	.word	6144
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_21
 
-	/* 22: Microsoft.Extensions.Caching.Memory.dll */
+	/* 22: Microcharts.dll */
 	/* uncompressed_file_size */
-	.word	32648
+	.word	40448
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_22
 
-	/* 23: Microsoft.Extensions.Configuration.Abstractions.dll */
+	/* 23: Microsoft.Bcl.AsyncInterfaces.dll */
 	/* uncompressed_file_size */
-	.word	20360
+	.word	14720
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_23
 
-	/* 24: Microsoft.Extensions.DependencyInjection.Abstractions.dll */
+	/* 24: Microsoft.CSharp.dll */
 	/* uncompressed_file_size */
-	.word	44416
+	.word	310664
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_24
 
-	/* 25: Microsoft.Extensions.DependencyInjection.dll */
+	/* 25: Microsoft.EntityFrameworkCore.Abstractions.dll */
 	/* uncompressed_file_size */
-	.word	75656
+	.word	28544
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_25
 
-	/* 26: Microsoft.Extensions.Logging.Abstractions.dll */
+	/* 26: Microsoft.EntityFrameworkCore.Relational.dll */
 	/* uncompressed_file_size */
-	.word	52616
+	.word	1255816
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_26
 
-	/* 27: Microsoft.Extensions.Logging.dll */
+	/* 27: Microsoft.EntityFrameworkCore.dll */
 	/* uncompressed_file_size */
-	.word	42376
+	.word	1827720
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_27
 
-	/* 28: Microsoft.Extensions.Options.dll */
+	/* 28: Microsoft.Extensions.Caching.Abstractions.dll */
 	/* uncompressed_file_size */
-	.word	55176
+	.word	26504
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_28
 
-	/* 29: Microsoft.Extensions.Primitives.dll */
+	/* 29: Microsoft.Extensions.Caching.Memory.dll */
 	/* uncompressed_file_size */
-	.word	42376
+	.word	32648
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_29
 
-	/* 30: Mono.Android.dll */
+	/* 30: Microsoft.Extensions.Configuration.Abstractions.dll */
 	/* uncompressed_file_size */
-	.word	27731848
+	.word	20360
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_30
 
-	/* 31: Mono.Security.dll */
+	/* 31: Microsoft.Extensions.DependencyInjection.Abstractions.dll */
 	/* uncompressed_file_size */
-	.word	251264
+	.word	44416
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_31
 
-	/* 32: MySql.Data.EntityFrameworkCore.dll */
+	/* 32: Microsoft.Extensions.DependencyInjection.dll */
 	/* uncompressed_file_size */
-	.word	147456
+	.word	75656
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_32
 
-	/* 33: MySql.Data.dll */
+	/* 33: Microsoft.Extensions.Logging.Abstractions.dll */
 	/* uncompressed_file_size */
-	.word	1777664
+	.word	52616
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_33
 
-	/* 34: MySqlConnector.dll */
+	/* 34: Microsoft.Extensions.Logging.dll */
 	/* uncompressed_file_size */
-	.word	559616
+	.word	42376
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_34
 
-	/* 35: Newtonsoft.Json.dll */
+	/* 35: Microsoft.Extensions.Options.dll */
 	/* uncompressed_file_size */
-	.word	693680
+	.word	55176
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_35
 
-	/* 36: Renci.SshNet.dll */
+	/* 36: Microsoft.Extensions.Primitives.dll */
 	/* uncompressed_file_size */
-	.word	424448
+	.word	42376
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_36
 
-	/* 37: SkiaSharp.Views.Android.dll */
+	/* 37: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.word	49504
+	.word	28115864
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_37
 
-	/* 38: SkiaSharp.Views.Forms.dll */
+	/* 38: Mono.Security.dll */
 	/* uncompressed_file_size */
-	.word	155488
+	.word	251272
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_38
 
-	/* 39: SkiaSharp.dll */
+	/* 39: MySql.Data.EntityFrameworkCore.dll */
 	/* uncompressed_file_size */
-	.word	405872
+	.word	147456
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_39
 
-	/* 40: SshNet.Security.Cryptography.dll */
+	/* 40: MySql.Data.dll */
 	/* uncompressed_file_size */
-	.word	34816
+	.word	1777664
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_40
 
-	/* 41: System.AppContext.dll */
+	/* 41: MySqlConnector.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	559616
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_41
 
-	/* 42: System.Buffers.dll */
+	/* 42: Newtonsoft.Json.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	693680
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_42
 
-	/* 43: System.CodeDom.dll */
+	/* 43: Renci.SshNet.dll */
 	/* uncompressed_file_size */
-	.word	181832
+	.word	424448
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_43
 
-	/* 44: System.Collections.Concurrent.dll */
+	/* 44: SkiaSharp.Views.Android.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	49504
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_44
 
-	/* 45: System.Collections.Immutable.dll */
+	/* 45: SkiaSharp.Views.Forms.dll */
 	/* uncompressed_file_size */
-	.word	189312
+	.word	155488
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_45
 
-	/* 46: System.Collections.dll */
+	/* 46: SkiaSharp.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	405872
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_46
 
-	/* 47: System.ComponentModel.Annotations.dll */
+	/* 47: SshNet.Security.Cryptography.dll */
 	/* uncompressed_file_size */
-	.word	15240
+	.word	34816
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_47
 
-	/* 48: System.ComponentModel.Composition.dll */
+	/* 48: System.AppContext.dll */
 	/* uncompressed_file_size */
-	.word	267656
+	.word	13696
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_48
 
-	/* 49: System.ComponentModel.DataAnnotations.dll */
+	/* 49: System.Buffers.dll */
 	/* uncompressed_file_size */
-	.word	94088
+	.word	13688
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_49
 
-	/* 50: System.Configuration.ConfigurationManager.dll */
+	/* 50: System.CodeDom.dll */
 	/* uncompressed_file_size */
-	.word	375912
+	.word	181832
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_50
 
-	/* 51: System.Core.dll */
+	/* 51: System.Collections.Concurrent.dll */
 	/* uncompressed_file_size */
-	.word	1094024
+	.word	14200
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_51
 
-	/* 52: System.Data.DataSetExtensions.dll */
+	/* 52: System.Collections.Immutable.dll */
 	/* uncompressed_file_size */
-	.word	38792
+	.word	189312
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_52
 
-	/* 53: System.Data.SqlClient.dll */
+	/* 53: System.Collections.dll */
 	/* uncompressed_file_size */
-	.word	15240
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_53
 
-	/* 54: System.Data.dll */
+	/* 54: System.ComponentModel.Annotations.dll */
 	/* uncompressed_file_size */
-	.word	1935752
+	.word	15240
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_54
 
-	/* 55: System.Diagnostics.Debug.dll */
+	/* 55: System.ComponentModel.Composition.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	267656
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_55
 
-	/* 56: System.Diagnostics.DiagnosticSource.dll */
+	/* 56: System.ComponentModel.DataAnnotations.dll */
 	/* uncompressed_file_size */
-	.word	83336
+	.word	94088
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_56
 
-	/* 57: System.Diagnostics.TraceSource.dll */
+	/* 57: System.Configuration.ConfigurationManager.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	375912
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_57
 
-	/* 58: System.Diagnostics.Tracing.dll */
+	/* 58: System.Core.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	1094024
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_58
 
-	/* 59: System.Drawing.Common.dll */
+	/* 59: System.Data.DataSetExtensions.dll */
 	/* uncompressed_file_size */
-	.word	170376
+	.word	38784
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_59
 
-	/* 60: System.Globalization.dll */
+	/* 60: System.Data.SqlClient.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	15240
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_60
 
-	/* 61: System.IO.Compression.FileSystem.dll */
+	/* 61: System.Data.dll */
 	/* uncompressed_file_size */
-	.word	27528
+	.word	1935752
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_61
 
-	/* 62: System.IO.Compression.dll */
+	/* 62: System.Diagnostics.Debug.dll */
 	/* uncompressed_file_size */
-	.word	124808
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_62
 
-	/* 63: System.IO.FileSystem.Primitives.dll */
+	/* 63: System.Diagnostics.DiagnosticSource.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	83336
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_63
 
-	/* 64: System.IO.FileSystem.dll */
+	/* 64: System.Diagnostics.TraceSource.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	14208
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_64
 
-	/* 65: System.IO.dll */
+	/* 65: System.Diagnostics.Tracing.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	14208
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_65
 
-	/* 66: System.Linq.dll */
+	/* 66: System.Drawing.Common.dll */
 	/* uncompressed_file_size */
-	.word	13192
+	.word	170376
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_66
 
-	/* 67: System.Memory.dll */
+	/* 67: System.Globalization.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	14200
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_67
 
-	/* 68: System.Net.Http.dll */
+	/* 68: System.IO.Compression.FileSystem.dll */
 	/* uncompressed_file_size */
-	.word	291712
+	.word	27528
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_68
 
-	/* 69: System.Net.NameResolution.dll */
+	/* 69: System.IO.Compression.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	124808
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_69
 
-	/* 70: System.Net.Primitives.dll */
+	/* 70: System.IO.FileSystem.Primitives.dll */
 	/* uncompressed_file_size */
-	.word	14728
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_70
 
-	/* 71: System.Net.Sockets.dll */
+	/* 71: System.IO.FileSystem.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	13688
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_71
 
-	/* 72: System.Numerics.Vectors.dll */
+	/* 72: System.IO.dll */
 	/* uncompressed_file_size */
-	.word	21384
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_72
 
-	/* 73: System.Numerics.dll */
+	/* 73: System.Linq.dll */
 	/* uncompressed_file_size */
-	.word	128904
+	.word	13176
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_73
 
-	/* 74: System.Reflection.Extensions.dll */
+	/* 74: System.Memory.dll */
 	/* uncompressed_file_size */
 	.word	13704
 	/* loaded */
@@ -681,160 +681,160 @@
 	.zero	3
 	.xword	compressed_assembly_data_74
 
-	/* 75: System.Reflection.dll */
+	/* 75: System.Net.Http.dll */
 	/* uncompressed_file_size */
-	.word	14728
+	.word	291720
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_75
 
-	/* 76: System.Resources.ResourceManager.dll */
+	/* 76: System.Net.NameResolution.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	13720
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_76
 
-	/* 77: System.Runtime.CompilerServices.Unsafe.dll */
+	/* 77: System.Net.Primitives.dll */
 	/* uncompressed_file_size */
-	.word	16776
+	.word	14744
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_77
 
-	/* 78: System.Runtime.Extensions.dll */
+	/* 78: System.Net.Sockets.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	14232
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_78
 
-	/* 79: System.Runtime.InteropServices.dll */
-	/* uncompressed_file_size */
-	.word	16768
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_79
-
-	/* 80: System.Runtime.Serialization.dll */
-	/* uncompressed_file_size */
-	.word	875912
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_80
-
-	/* 81: System.Runtime.dll */
+	/* 79: System.Numerics.Vectors.dll */
 	/* uncompressed_file_size */
 	.word	21384
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.xword	compressed_assembly_data_81
+	.xword	compressed_assembly_data_79
 
-	/* 82: System.Security.AccessControl.dll */
+	/* 80: System.Numerics.dll */
 	/* uncompressed_file_size */
-	.word	51272
+	.word	128912
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.xword	compressed_assembly_data_82
+	.xword	compressed_assembly_data_80
 
-	/* 83: System.Security.Cryptography.Algorithms.dll */
-	/* uncompressed_file_size */
-	.word	15240
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_83
-
-	/* 84: System.Security.Cryptography.Primitives.dll */
+	/* 81: System.ObjectModel.dll */
 	/* uncompressed_file_size */
 	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.xword	compressed_assembly_data_84
+	.xword	compressed_assembly_data_81
 
-	/* 85: System.Security.Cryptography.ProtectedData.dll */
+	/* 82: System.Reflection.Extensions.dll */
+	/* uncompressed_file_size */
+	.word	13720
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_82
+
+	/* 83: System.Reflection.dll */
+	/* uncompressed_file_size */
+	.word	14728
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_83
+
+	/* 84: System.Resources.ResourceManager.dll */
 	/* uncompressed_file_size */
 	.word	13704
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_84
+
+	/* 85: System.Runtime.CompilerServices.Unsafe.dll */
+	/* uncompressed_file_size */
+	.word	16776
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_85
 
-	/* 86: System.Security.Permissions.dll */
+	/* 86: System.Runtime.Extensions.dll */
 	/* uncompressed_file_size */
-	.word	93048
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_86
 
-	/* 87: System.Security.Principal.Windows.dll */
+	/* 87: System.Runtime.InteropServices.dll */
 	/* uncompressed_file_size */
-	.word	33656
+	.word	16776
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_87
 
-	/* 88: System.Security.dll */
+	/* 88: System.Runtime.Serialization.dll */
 	/* uncompressed_file_size */
-	.word	188808
+	.word	875912
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_88
 
-	/* 89: System.ServiceModel.Internals.dll */
+	/* 89: System.Runtime.dll */
 	/* uncompressed_file_size */
-	.word	227720
+	.word	21384
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_89
 
-	/* 90: System.Text.Encoding.CodePages.dll */
+	/* 90: System.Security.AccessControl.dll */
 	/* uncompressed_file_size */
-	.word	14208
+	.word	51272
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_90
 
-	/* 91: System.Text.Encoding.Extensions.dll */
+	/* 91: System.Security.Cryptography.Algorithms.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	15240
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_91
 
-	/* 92: System.Text.Encoding.dll */
+	/* 92: System.Security.Cryptography.Primitives.dll */
 	/* uncompressed_file_size */
 	.word	14216
 	/* loaded */
@@ -843,61 +843,61 @@
 	.zero	3
 	.xword	compressed_assembly_data_92
 
-	/* 93: System.Text.Encodings.Web.dll */
-	/* uncompressed_file_size */
-	.word	64904
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_93
-
-	/* 94: System.Text.Json.dll */
-	/* uncompressed_file_size */
-	.word	351624
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_94
-
-	/* 95: System.Text.RegularExpressions.dll */
-	/* uncompressed_file_size */
-	.word	14216
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_95
-
-	/* 96: System.Threading.Tasks.Extensions.dll */
-	/* uncompressed_file_size */
-	.word	14216
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_96
-
-	/* 97: System.Threading.Tasks.dll */
-	/* uncompressed_file_size */
-	.word	14728
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_97
-
-	/* 98: System.Threading.Thread.dll */
+	/* 93: System.Security.Cryptography.ProtectedData.dll */
 	/* uncompressed_file_size */
 	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
+	.xword	compressed_assembly_data_93
+
+	/* 94: System.Security.Permissions.dll */
+	/* uncompressed_file_size */
+	.word	93048
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_94
+
+	/* 95: System.Security.Principal.Windows.dll */
+	/* uncompressed_file_size */
+	.word	33656
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_95
+
+	/* 96: System.Security.dll */
+	/* uncompressed_file_size */
+	.word	188816
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_96
+
+	/* 97: System.ServiceModel.Internals.dll */
+	/* uncompressed_file_size */
+	.word	227720
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_97
+
+	/* 98: System.Text.Encoding.CodePages.dll */
+	/* uncompressed_file_size */
+	.word	14216
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
 	.xword	compressed_assembly_data_98
 
-	/* 99: System.Threading.ThreadPool.dll */
+	/* 99: System.Text.Encoding.Extensions.dll */
 	/* uncompressed_file_size */
 	.word	13704
 	/* loaded */
@@ -906,376 +906,376 @@
 	.zero	3
 	.xword	compressed_assembly_data_99
 
-	/* 100: System.Threading.Timer.dll */
+	/* 100: System.Text.Encoding.dll */
 	/* uncompressed_file_size */
-	.word	13704
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_100
 
-	/* 101: System.Threading.dll */
+	/* 101: System.Text.Encodings.Web.dll */
 	/* uncompressed_file_size */
-	.word	14728
+	.word	66936
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_101
 
-	/* 102: System.Transactions.dll */
+	/* 102: System.Text.Json.dll */
 	/* uncompressed_file_size */
-	.word	41352
+	.word	351632
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_102
 
-	/* 103: System.Web.Services.dll */
+	/* 103: System.Text.RegularExpressions.dll */
 	/* uncompressed_file_size */
-	.word	223624
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_103
 
-	/* 104: System.Xml.Linq.dll */
+	/* 104: System.Threading.Tasks.Extensions.dll */
 	/* uncompressed_file_size */
-	.word	146824
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_104
 
-	/* 105: System.Xml.ReaderWriter.dll */
+	/* 105: System.Threading.Tasks.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	14728
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_105
 
-	/* 106: System.Xml.XPath.XmlDocument.dll */
+	/* 106: System.Threading.Thread.dll */
 	/* uncompressed_file_size */
-	.word	15240
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_106
 
-	/* 107: System.Xml.XmlDocument.dll */
+	/* 107: System.Threading.ThreadPool.dll */
 	/* uncompressed_file_size */
-	.word	14216
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_107
 
-	/* 108: System.Xml.dll */
+	/* 108: System.Threading.Timer.dll */
 	/* uncompressed_file_size */
-	.word	2451848
+	.word	13704
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_108
 
-	/* 109: System.dll */
+	/* 109: System.Threading.dll */
 	/* uncompressed_file_size */
-	.word	1969032
+	.word	14728
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_109
 
-	/* 110: Tracker App.Android.dll */
+	/* 110: System.Transactions.dll */
 	/* uncompressed_file_size */
-	.word	378368
+	.word	41352
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_110
 
-	/* 111: Tracker App.dll */
+	/* 111: System.Web.Services.dll */
 	/* uncompressed_file_size */
-	.word	70656
+	.word	223640
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_111
 
-	/* 112: Ubiety.Dns.Core.dll */
+	/* 112: System.Xml.Linq.dll */
 	/* uncompressed_file_size */
-	.word	55808
+	.word	146824
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_112
 
-	/* 113: Xamarin.AndroidX.Activity.dll */
-	/* uncompressed_file_size */
-	.word	29064
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_113
-
-	/* 114: Xamarin.AndroidX.Annotation.dll */
-	/* uncompressed_file_size */
-	.word	149896
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_114
-
-	/* 115: Xamarin.AndroidX.AppCompat.AppCompatResources.dll */
-	/* uncompressed_file_size */
-	.word	65928
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_115
-
-	/* 116: Xamarin.AndroidX.AppCompat.dll */
-	/* uncompressed_file_size */
-	.word	1039240
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_116
-
-	/* 117: Xamarin.AndroidX.Arch.Core.Common.dll */
-	/* uncompressed_file_size */
-	.word	30600
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_117
-
-	/* 118: Xamarin.AndroidX.Arch.Core.Runtime.dll */
-	/* uncompressed_file_size */
-	.word	24448
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_118
-
-	/* 119: Xamarin.AndroidX.AsyncLayoutInflater.dll */
-	/* uncompressed_file_size */
-	.word	22408
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_119
-
-	/* 120: Xamarin.AndroidX.Browser.dll */
-	/* uncompressed_file_size */
-	.word	284552
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_120
-
-	/* 121: Xamarin.AndroidX.CardView.dll */
-	/* uncompressed_file_size */
-	.word	30080
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_121
-
-	/* 122: Xamarin.AndroidX.Collection.dll */
-	/* uncompressed_file_size */
-	.word	74120
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_122
-
-	/* 123: Xamarin.AndroidX.CoordinatorLayout.dll */
-	/* uncompressed_file_size */
-	.word	101760
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_123
-
-	/* 124: Xamarin.AndroidX.Core.dll */
-	/* uncompressed_file_size */
-	.word	1404808
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_124
-
-	/* 125: Xamarin.AndroidX.CursorAdapter.dll */
-	/* uncompressed_file_size */
-	.word	56712
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_125
-
-	/* 126: Xamarin.AndroidX.CustomView.dll */
-	/* uncompressed_file_size */
-	.word	63368
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_126
-
-	/* 127: Xamarin.AndroidX.DocumentFile.dll */
-	/* uncompressed_file_size */
-	.word	28040
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_127
-
-	/* 128: Xamarin.AndroidX.DrawerLayout.dll */
-	/* uncompressed_file_size */
-	.word	59272
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_128
-
-	/* 129: Xamarin.AndroidX.Fragment.dll */
-	/* uncompressed_file_size */
-	.word	258440
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_129
-
-	/* 130: Xamarin.AndroidX.Interpolator.dll */
-	/* uncompressed_file_size */
-	.word	21896
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_130
-
-	/* 131: Xamarin.AndroidX.Legacy.Support.Core.UI.dll */
-	/* uncompressed_file_size */
-	.word	34184
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_131
-
-	/* 132: Xamarin.AndroidX.Legacy.Support.Core.Utils.dll */
-	/* uncompressed_file_size */
-	.word	18824
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_132
-
-	/* 133: Xamarin.AndroidX.Legacy.Support.V4.dll */
+	/* 113: System.Xml.ReaderWriter.dll */
 	/* uncompressed_file_size */
 	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.xword	compressed_assembly_data_133
+	.xword	compressed_assembly_data_113
 
-	/* 134: Xamarin.AndroidX.Lifecycle.Common.dll */
+	/* 114: System.Xml.XPath.XmlDocument.dll */
 	/* uncompressed_file_size */
-	.word	40328
+	.word	15232
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.xword	compressed_assembly_data_134
+	.xword	compressed_assembly_data_114
 
-	/* 135: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll */
+	/* 115: System.Xml.XmlDocument.dll */
+	/* uncompressed_file_size */
+	.word	14216
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_115
+
+	/* 116: System.Xml.dll */
+	/* uncompressed_file_size */
+	.word	2451864
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_116
+
+	/* 117: System.dll */
+	/* uncompressed_file_size */
+	.word	1969040
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_117
+
+	/* 118: Tracker App.Android.dll */
+	/* uncompressed_file_size */
+	.word	392704
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_118
+
+	/* 119: Tracker App.dll */
+	/* uncompressed_file_size */
+	.word	73728
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_119
+
+	/* 120: Ubiety.Dns.Core.dll */
+	/* uncompressed_file_size */
+	.word	55808
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_120
+
+	/* 121: Xamarin.AndroidX.Activity.dll */
+	/* uncompressed_file_size */
+	.word	29064
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_121
+
+	/* 122: Xamarin.AndroidX.Annotation.Experimental.dll */
+	/* uncompressed_file_size */
+	.word	25472
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_122
+
+	/* 123: Xamarin.AndroidX.Annotation.dll */
+	/* uncompressed_file_size */
+	.word	149896
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_123
+
+	/* 124: Xamarin.AndroidX.AppCompat.AppCompatResources.dll */
+	/* uncompressed_file_size */
+	.word	65928
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_124
+
+	/* 125: Xamarin.AndroidX.AppCompat.dll */
+	/* uncompressed_file_size */
+	.word	1028608
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_125
+
+	/* 126: Xamarin.AndroidX.Arch.Core.Common.dll */
+	/* uncompressed_file_size */
+	.word	30600
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_126
+
+	/* 127: Xamarin.AndroidX.Arch.Core.Runtime.dll */
+	/* uncompressed_file_size */
+	.word	24448
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_127
+
+	/* 128: Xamarin.AndroidX.AsyncLayoutInflater.dll */
+	/* uncompressed_file_size */
+	.word	22408
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_128
+
+	/* 129: Xamarin.AndroidX.Browser.dll */
+	/* uncompressed_file_size */
+	.word	284552
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_129
+
+	/* 130: Xamarin.AndroidX.CardView.dll */
 	/* uncompressed_file_size */
 	.word	30088
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
+	.xword	compressed_assembly_data_130
+
+	/* 131: Xamarin.AndroidX.Collection.dll */
+	/* uncompressed_file_size */
+	.word	74120
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_131
+
+	/* 132: Xamarin.AndroidX.CoordinatorLayout.dll */
+	/* uncompressed_file_size */
+	.word	101760
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_132
+
+	/* 133: Xamarin.AndroidX.Core.dll */
+	/* uncompressed_file_size */
+	.word	1404808
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_133
+
+	/* 134: Xamarin.AndroidX.CursorAdapter.dll */
+	/* uncompressed_file_size */
+	.word	56712
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_134
+
+	/* 135: Xamarin.AndroidX.CustomView.dll */
+	/* uncompressed_file_size */
+	.word	63368
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
 	.xword	compressed_assembly_data_135
 
-	/* 136: Xamarin.AndroidX.Lifecycle.LiveData.dll */
+	/* 136: Xamarin.AndroidX.DocumentFile.dll */
 	/* uncompressed_file_size */
-	.word	24456
+	.word	28040
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_136
 
-	/* 137: Xamarin.AndroidX.Lifecycle.Runtime.dll */
+	/* 137: Xamarin.AndroidX.DrawerLayout.dll */
 	/* uncompressed_file_size */
-	.word	23432
+	.word	59272
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_137
 
-	/* 138: Xamarin.AndroidX.Lifecycle.ViewModel.dll */
+	/* 138: Xamarin.AndroidX.Fragment.dll */
 	/* uncompressed_file_size */
-	.word	32648
+	.word	258440
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_138
 
-	/* 139: Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll */
+	/* 139: Xamarin.AndroidX.Interpolator.dll */
 	/* uncompressed_file_size */
-	.word	19848
+	.word	21896
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_139
 
-	/* 140: Xamarin.AndroidX.Loader.dll */
+	/* 140: Xamarin.AndroidX.Legacy.Support.Core.UI.dll */
 	/* uncompressed_file_size */
-	.word	61832
+	.word	34184
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_140
 
-	/* 141: Xamarin.AndroidX.LocalBroadcastManager.dll */
+	/* 141: Xamarin.AndroidX.Legacy.Support.Core.Utils.dll */
 	/* uncompressed_file_size */
 	.word	18824
 	/* loaded */
@@ -1284,221 +1284,302 @@
 	.zero	3
 	.xword	compressed_assembly_data_141
 
-	/* 142: Xamarin.AndroidX.Media.dll */
-	/* uncompressed_file_size */
-	.word	382344
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.xword	compressed_assembly_data_142
-
-	/* 143: Xamarin.AndroidX.MultiDex.dll */
+	/* 142: Xamarin.AndroidX.Legacy.Support.V4.dll */
 	/* uncompressed_file_size */
 	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
+	.xword	compressed_assembly_data_142
+
+	/* 143: Xamarin.AndroidX.Lifecycle.Common.dll */
+	/* uncompressed_file_size */
+	.word	40328
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
 	.xword	compressed_assembly_data_143
 
-	/* 144: Xamarin.AndroidX.Print.dll */
+	/* 144: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll */
 	/* uncompressed_file_size */
-	.word	22400
+	.word	30088
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_144
 
-	/* 145: Xamarin.AndroidX.RecyclerView.dll */
+	/* 145: Xamarin.AndroidX.Lifecycle.LiveData.dll */
 	/* uncompressed_file_size */
-	.word	553848
+	.word	24456
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_145
 
-	/* 146: Xamarin.AndroidX.SavedState.dll */
+	/* 146: Xamarin.AndroidX.Lifecycle.Runtime.dll */
 	/* uncompressed_file_size */
-	.word	29064
+	.word	23432
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_146
 
-	/* 147: Xamarin.AndroidX.SlidingPaneLayout.dll */
+	/* 147: Xamarin.AndroidX.Lifecycle.ViewModel.dll */
 	/* uncompressed_file_size */
-	.word	43400
+	.word	32648
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_147
 
-	/* 148: Xamarin.AndroidX.SwipeRefreshLayout.dll */
+	/* 148: Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll */
 	/* uncompressed_file_size */
-	.word	66440
+	.word	19848
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_148
 
-	/* 149: Xamarin.AndroidX.Transition.dll */
+	/* 149: Xamarin.AndroidX.Loader.dll */
 	/* uncompressed_file_size */
-	.word	145800
+	.word	61832
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_149
 
-	/* 150: Xamarin.AndroidX.VectorDrawable.Animated.dll */
+	/* 150: Xamarin.AndroidX.LocalBroadcastManager.dll */
 	/* uncompressed_file_size */
-	.word	43384
+	.word	18824
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_150
 
-	/* 151: Xamarin.AndroidX.VectorDrawable.dll */
+	/* 151: Xamarin.AndroidX.Media.dll */
 	/* uncompressed_file_size */
-	.word	31096
+	.word	382344
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_151
 
-	/* 152: Xamarin.AndroidX.VersionedParcelable.dll */
+	/* 152: Xamarin.AndroidX.MultiDex.dll */
 	/* uncompressed_file_size */
-	.word	106888
+	.word	14216
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_152
 
-	/* 153: Xamarin.AndroidX.ViewPager.dll */
+	/* 153: Xamarin.AndroidX.Print.dll */
 	/* uncompressed_file_size */
-	.word	83336
+	.word	22400
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_153
 
-	/* 154: Xamarin.AndroidX.ViewPager2.dll */
+	/* 154: Xamarin.AndroidX.RecyclerView.dll */
 	/* uncompressed_file_size */
-	.word	52616
+	.word	563592
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_154
 
-	/* 155: Xamarin.Essentials.dll */
+	/* 155: Xamarin.AndroidX.SavedState.dll */
 	/* uncompressed_file_size */
-	.word	210312
+	.word	29064
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_155
 
-	/* 156: Xamarin.Forms.Core.dll */
+	/* 156: Xamarin.AndroidX.SlidingPaneLayout.dll */
 	/* uncompressed_file_size */
-	.word	1221000
+	.word	43400
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_156
 
-	/* 157: Xamarin.Forms.Platform.Android.dll */
+	/* 157: Xamarin.AndroidX.SwipeRefreshLayout.dll */
 	/* uncompressed_file_size */
-	.word	855552
+	.word	66440
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_157
 
-	/* 158: Xamarin.Forms.Platform.dll */
+	/* 158: Xamarin.AndroidX.Transition.dll */
 	/* uncompressed_file_size */
-	.word	181640
+	.word	139776
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_158
 
-	/* 159: Xamarin.Forms.Xaml.dll */
+	/* 159: Xamarin.AndroidX.VectorDrawable.Animated.dll */
 	/* uncompressed_file_size */
-	.word	113544
+	.word	44424
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_159
 
-	/* 160: Xamarin.Google.Android.Material.dll */
+	/* 160: Xamarin.AndroidX.VectorDrawable.dll */
 	/* uncompressed_file_size */
-	.word	1283464
+	.word	31112
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_160
 
-	/* 161: Xamarin.Google.Guava.ListenableFuture.dll */
+	/* 161: Xamarin.AndroidX.VersionedParcelable.dll */
 	/* uncompressed_file_size */
-	.word	18072
+	.word	106888
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_161
 
-	/* 162: Zstandard.Net.dll */
+	/* 162: Xamarin.AndroidX.ViewPager.dll */
 	/* uncompressed_file_size */
-	.word	14336
+	.word	83336
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_162
 
-	/* 163: mscorlib.dll */
+	/* 163: Xamarin.AndroidX.ViewPager2.dll */
 	/* uncompressed_file_size */
-	.word	4514184
+	.word	53128
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_163
 
-	/* 164: netstandard.dll */
+	/* 164: Xamarin.Essentials.dll */
 	/* uncompressed_file_size */
-	.word	99720
+	.word	210312
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
 	.xword	compressed_assembly_data_164
 
-	.size	.L.compressed_assembly_descriptors, 2640
+	/* 165: Xamarin.Forms.Core.dll */
+	/* uncompressed_file_size */
+	.word	1222032
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_165
+
+	/* 166: Xamarin.Forms.Platform.Android.dll */
+	/* uncompressed_file_size */
+	.word	865792
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_166
+
+	/* 167: Xamarin.Forms.Platform.dll */
+	/* uncompressed_file_size */
+	.word	189328
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_167
+
+	/* 168: Xamarin.Forms.Xaml.dll */
+	/* uncompressed_file_size */
+	.word	113552
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_168
+
+	/* 169: Xamarin.Google.Android.Material.dll */
+	/* uncompressed_file_size */
+	.word	1520640
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_169
+
+	/* 170: Xamarin.Google.Guava.ListenableFuture.dll */
+	/* uncompressed_file_size */
+	.word	18072
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_170
+
+	/* 171: Zstandard.Net.dll */
+	/* uncompressed_file_size */
+	.word	14336
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_171
+
+	/* 172: mscorlib.dll */
+	/* uncompressed_file_size */
+	.word	4514192
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_172
+
+	/* 173: netstandard.dll */
+	/* uncompressed_file_size */
+	.word	99720
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.xword	compressed_assembly_data_173
+
+	.size	.L.compressed_assembly_descriptors, 2784
 	.section	.data.compressed_assemblies,"aw",@progbits
 	.type	compressed_assemblies, @object
 	.p2align	3
 	.global	compressed_assemblies
 compressed_assemblies:
 	/* count */
-	.word	165
+	.word	174
 	/* descriptors */
 	.zero	4
 	.xword	.L.compressed_assembly_descriptors

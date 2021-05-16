@@ -25,7 +25,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Entry x:Name="EnterID" Grid.Row="0" Grid.ColumnSpan="4" Placeholder="Enter ID..." PlaceholderColor="Silver" TextColor="Black" Keyboard="Numeric" Completed="Login_Button"></Entry>
-                    <Button x:Name="LoginButton" Grid.Row="1" Grid.ColumnSpan="4" Text="Login" BackgroundColor="LightBlue" Clicked="Login_Button"></Button>
+                    <Button x:Name="LoginButton" Grid.Row="1" Grid.ColumnSpan="4" Text="Login" BackgroundColor="DeepSkyBlue" Clicked="Login_Button"></Button>
 
                     <CheckBox Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>
                     <Label Grid.Row="2" Grid.Column="1" Text="Keep Logged In" VerticalOptions="Center" />

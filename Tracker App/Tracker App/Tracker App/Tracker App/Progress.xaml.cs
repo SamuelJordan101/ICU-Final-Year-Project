@@ -237,7 +237,7 @@ namespace Tracker_App
 
         async void CPAX_Info(object sender, System.EventArgs e)
         {
-            await DisplayAlert("CPAX Information", "Your CPAX score is a measurement of your overall physical and respiratory functions. Your score gives" +
+            await DisplayAlert("CPAX Information", "Your CPAX score is a measurement of your overall physical and respiratory functions. Your score gives " +
                 "you an overall representation of your fitness.", "Okay!");
         }
 

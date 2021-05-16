@@ -95,6 +95,18 @@ CREATE TABLE ExercisePlan (
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
 VALUES (111111,'2021/01/01',1,1,1,1,1,1,1,1,1,1);
 
+INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
+VALUES (111111,'2021/02/01',1,2,1,2,1,2,1,2,1,2);
+
+INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
+VALUES (111111,'2021/03/01',2,2,2,2,2,2,2,2,2,2);
+
+INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
+VALUES (111111,'2021/04/01',2,3,2,3,2,3,2,3,2,3);
+
+INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
+VALUES (111111,'2021/05/01',3,3,3,3,3,3,3,3,3,3);
+
 INSERT INTO Patient 
 VALUES (111111,'Sam Jordan', '2021/01/01', 'ICU', 'Derriford Hospital', '1');
 
