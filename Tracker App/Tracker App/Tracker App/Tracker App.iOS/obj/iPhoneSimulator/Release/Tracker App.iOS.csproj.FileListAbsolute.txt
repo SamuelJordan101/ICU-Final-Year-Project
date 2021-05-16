@@ -121,3 +121,18 @@ C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tra
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\obj\iPhoneSimulator\Release\Tracker App.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\obj\iPhoneSimulator\Release\Tracker App.iOS.csproj.CopyComplete
 C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\obj\iPhoneSimulator\Release\Tracker App.iOS.exe
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\WebP.Touch.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Platform.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Platform.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Forms.Platform.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Forms.Platform.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Forms.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Forms.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Svg.Platform.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Svg.Platform.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Svg.Forms.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Svg.Forms.pdb
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Transformations.dll
+C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Tracker App\Tracker App\Tracker App\Tracker App.iOS\bin\iPhoneSimulator\Release\FFImageLoading.Transformations.pdb

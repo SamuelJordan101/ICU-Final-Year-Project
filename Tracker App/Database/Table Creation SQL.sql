@@ -93,22 +93,22 @@ CREATE TABLE ExercisePlan (
 );
 
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
-VALUES (111111,'2021/01/01',1,1,1,1,1,1,1,1,1,1);
+VALUES (1234,'2021/01/01',1,1,1,1,1,1,1,1,1,1);
 
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
-VALUES (111111,'2021/02/01',1,2,1,2,1,2,1,2,1,2);
+VALUES (1234,'2021/02/01',1,2,1,2,1,2,1,2,1,2);
 
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
-VALUES (111111,'2021/03/01',2,2,2,2,2,2,2,2,2,2);
+VALUES (1234,'2021/03/01',2,2,2,2,2,2,2,2,2,2);
 
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
-VALUES (111111,'2021/04/01',2,3,2,3,2,3,2,3,2,3);
+VALUES (1234,'2021/04/01',2,3,2,3,2,3,2,3,2,3);
 
 INSERT INTO CPAX (PatientID, CPAXDate, Grip,Respiratory,Cough,BedMovement,DynamicSitting,StandingBalance,SitToStand,BedToChair,Stepping,Transfer)
-VALUES (111111,'2021/05/01',3,3,3,3,3,3,3,3,3,3);
+VALUES (1234,'2021/05/01',3,3,3,3,3,3,3,3,3,3);
 
 INSERT INTO Patient 
-VALUES (111111,'Sam Jordan', '2021/01/01', 'ICU', 'Derriford Hospital', '1');
+VALUES (1234,'Sam Jordan', '2021/01/01', 'ICU', 'Derriford Hospital', '1');
 
 INSERT INTO Image (ImageData)
 VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\ExercisePlaceholder.png', SINGLE_BLOB) as T1));
@@ -117,37 +117,34 @@ INSERT INTO Image (ImageData)
 VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\Exercise Gif Placeholder.gif', SINGLE_BLOB) as T1));
 
 INSERT INTO Image (ImageData, PatientID) 
-VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\Derriford Hospital.jpg', SINGLE_BLOB) as T1),111111);
+VALUES ((SELECT * FROM OPENROWSET(BULK N'C:\Users\Sam\Documents\GitHub\ICU-Final-Year-Project\Documentation\Storyboard\Images\Derriford Hospital.jpg', SINGLE_BLOB) as T1),1234);
 
 INSERT INTO Achievement 
-VALUES (111111,'Walked 1K');
+VALUES (1234,'Walked 1K');
 
 INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
-VALUES (111111,'Get Out Of Bed', 'FALSE', 'FALSE');
+VALUES (1234,'Get Out Of Bed', 'FALSE', 'FALSE');
 
 INSERT INTO Goals (PatientID, Goal, Assigned, Done) 
-VALUES (111111,'Have 3 Meals', 'FALSE', 'FALSE');
+VALUES (1234,'Have 3 Meals', 'FALSE', 'FALSE');
 
 INSERT INTO Goals (PatientID, Goal, Assigned, DueDate, Done) 
-VALUES (111111,'Eat Breakfast', 'TRUE', '2021/03/20' ,'FALSE');
+VALUES (1234,'Eat Breakfast', 'TRUE', '2021/03/20' ,'FALSE');
+
+INSERT INTO Goals (PatientID, Goal, Assigned, DueDate, Done) 
+VALUES (1234,'Eat Breakfast', 'TRUE', '2021/06/30' ,'FALSE');
 
 INSERT INTO Exercises
-VALUES ('Arm Curls','Arm','1','2');
+VALUES ('Leg Lunges','Exercise to increase the calf muscles','58','2');
 
 INSERT INTO Steps 
-VALUES ('Pick up Weight','1','1');
+VALUES ('Stand tall with feet hip-width apart.','57','1');
 
 INSERT INTO Steps 
-VALUES ('Curl Weight','1','1');
-
-INSERT INTO Exercises
-VALUES ('Leg Stretches','Leg','2','2');
+VALUES ('Take a big step forward with right leg.','58','1');
 
 INSERT INTO Steps 
-VALUES ('Stand Up','1','2');
+VALUES ('Lower your body until right thigh is parallel to the floor and right shin is vertical.','59','1');
 
 INSERT INTO Steps 
-VALUES ('Put your leg infront of you','1','2');
-
-INSERT INTO Steps 
-VALUES ('Pull your leg up','1','2');
+VALUES ('Press into right heel to drive back up to starting position.','60','1');

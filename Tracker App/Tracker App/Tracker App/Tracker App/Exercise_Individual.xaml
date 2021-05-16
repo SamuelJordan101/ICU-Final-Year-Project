@@ -23,7 +23,7 @@
                         <StackLayout x:Name="GifLayout">
                             <Label Text="Steps" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,0,0,10"></Label>
 
-                            <ff:CachedImage x:Name="Gif" Source="GifPlaceholder.gif" Aspect="AspectFit"/>
+                            <ff:CachedImage x:Name="Gif" Source="GifPlaceholder.gif" Aspect="AspectFit" HeightRequest="200"/>
                         </StackLayout>
                     </Frame>
                 </StackLayout>
